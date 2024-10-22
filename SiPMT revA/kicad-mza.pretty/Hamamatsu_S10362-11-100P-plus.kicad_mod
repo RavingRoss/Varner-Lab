@@ -1,0 +1,146 @@
+(footprint "Hamamatsu_S10362-11-100P-plus"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SiPM, 2pin")
+	(tags "Hamamatsu SiPM")
+	(property "Reference" "D2"
+		(at 2.5 -3.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "84d4897d-a661-48c5-9efa-335a40dc3dc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_Photo"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "35986a74-bed4-4b52-a001-57b7ca9772ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "kicad-mza:Hamamatsu_S10362-11-100P-plus"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f621596d-fbdd-44e7-a049-d31055d29b34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21cc731e-76e9-4ce7-8ac8-6b7ff0eea17f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4e7107a-ecbb-4363-825b-5c9d620e9ce5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.525 -0.95)
+		(end 0.9 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "100c1746-7736-42f5-9cdd-a8ad075822f5")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d5bed5c4-9a5a-44f2-8235-d6dbcb38c3ac")
+	)
+	(fp_rect
+		(start -1.525 -0.95)
+		(end 0.9 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "230f4c69-3b71-4480-ace8-81d6b0f2b0ac")
+	)
+	(fp_rect
+		(start -1.525 -0.95)
+		(end 0.9 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "38f1e3ce-a045-486d-8392-111df8bf804a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3125 3 0)
+		(layer "F.Fab")
+		(uuid "cf34a5aa-24ed-4c4a-a710-223c0c53f865")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.3625 -0.925)
+		(size 2.325 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9f0751e2-bf5b-4145-adeb-ea0869628f28")
+	)
+	(pad "2" smd rect
+		(at -0.3625 0.925)
+		(size 2.325 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "920be34e-f4e3-44f9-b0f9-c8bcbf1215ee")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/OptoDevice.3dshapes/Hamamatsu_S13360-30CS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

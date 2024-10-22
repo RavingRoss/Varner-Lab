@@ -1,0 +1,77 @@
+(footprint "TestPoint_teeny"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+	(tags "test point THT pad")
+	(property "Reference" "testpoint8"
+		(at 0 -1.998 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5342c70e-f784-448d-b725-14b55c9f8eee")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "gpio2"
+		(at 0.3 -0.1 0)
+		(layer "F.SilkS")
+		(uuid "d072b91a-aef7-4acc-a6e7-0a2b53dfd578")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.127)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" "kicad-mza:TestPoint_scope-probe"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a9747d1-c1b0-4cfd-ab61-1673ba9fec17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8645fb4-f6e4-4a6d-ae0a-07ac0fb4a46a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98e8d4f4-ceec-4edd-abe2-97c1236d48f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.508 0.508)
+		(drill 0.254)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69fc88bd-cdb8-41ef-a5bc-79000301d1cc")
+	)
+)

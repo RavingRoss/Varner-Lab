@@ -1,0 +1,251 @@
+(footprint "rotary-encoder-right-angle.en11"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bourns rotary encoder, PEC12R, with switch, horizontal shaft, 17mm shaft length, https://www.bourns.com/docs/product-datasheets/pec12r.pdf")
+	(tags "rotary encoder")
+	(property "Reference" "SW1"
+		(at -3.25 7.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "385f0d8e-3627-4300-b26e-65f379b9bc0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at -1.25 9.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8130a94d-28f4-45df-9f70-6336c64abae3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "kicad-mza:rotary-encoder-right-angle.en11"
+		(at -2.25 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df541731-1ba9-4279-b7a0-e99c5ff8e716")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.25 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b1af65d-2ed4-4cc7-8d48-5f7415cdc12c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.25 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efcbffd3-c8b7-4c5f-808e-eb3c6589b9eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4 -6)
+		(end 2.25 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8c9c5f11-e9bb-44b3-aa30-9a0b0a9c0ca9")
+	)
+	(fp_rect
+		(start -24 -3.5)
+		(end -4 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "717c77c3-b128-4997-a43e-d90cc2d0ea0a")
+	)
+	(pad "A" thru_hole roundrect
+		(at -1.25 -2.5 270)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "c20081ca-b369-47b6-b9fb-112f675c3f39")
+	)
+	(pad "B" thru_hole circle
+		(at -1.25 2.5 270)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1fe9cff0-7f98-4ccd-8b42-4fbe816add59")
+	)
+	(pad "C" thru_hole circle
+		(at -1.25 0 270)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec76d33a-d035-4f2d-a3c5-40009e54e4d0")
+	)
+	(pad "M1" thru_hole roundrect
+		(at 0 -6.45 180)
+		(size 3.4 2.9)
+		(drill oval 2.5 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "267b8b53-5c8c-4dcb-bec6-10b3ca3d1a16")
+	)
+	(pad "M2" thru_hole roundrect
+		(at 0 6.45 180)
+		(size 3.4 2.9)
+		(drill oval 2.5 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "004e949c-9956-400d-8bd5-858595a02d27")
+	)
+	(pad "S1" thru_hole circle
+		(at 1.25 -2.5 270)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5ffade6-ed17-4a29-8c9c-39bdc9864bf4")
+	)
+	(pad "S2" thru_hole circle
+		(at 1.25 2.5 270)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d2082a7-8102-4d8e-9b58-ab3bf1855788")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "e08fb51c-9df1-4719-b57b-16ec12322164")
+		(name "Shell contact")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.6 -5.25) (xy -2.6 -6.5) (xy -3.6 -6.5) (xy -3.6 -5.25)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "3db18dca-6e1f-4ce9-8962-ab157e019f40")
+		(name "Shell contact")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.6 1.75) (xy -2.6 -1.75) (xy -5.1 -1.75) (xy -5.1 1.75)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "e1e3c936-a3cd-4d17-805e-c7a645fda61d")
+		(name "Shell contact")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.6 6.5) (xy -2.6 5.25) (xy -3.6 5.25) (xy -3.6 6.5)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx.wrl"
+		(offset
+			(xyz -1.25 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
