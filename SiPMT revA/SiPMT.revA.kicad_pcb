@@ -59171,19 +59171,6 @@
 		(layer "User.6")
 		(uuid "fb40adbc-20b6-4bca-a4e1-ff43312fc742")
 	)
-	(gr_text "\nadd vias to VCC res"
-		(at 183.9 93.93 0)
-		(layer "F.Cu")
-		(uuid "87fa7ade-175a-4b5e-bd0b-2167bf329682")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Q3"
 		(at 134.8 108.83 0)
 		(layer "B.SilkS")
