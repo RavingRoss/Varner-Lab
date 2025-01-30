@@ -5,11 +5,11 @@
 	(layer "F.Cu")
 	(descr "SiPM, 2pin")
 	(tags "Hamamatsu SiPM")
-	(property "Reference" "D2"
+	(property "Reference" "D3"
 		(at 2.5 -3.25 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "84d4897d-a661-48c5-9efa-335a40dc3dc3")
+		(uuid "0034dff2-84d8-4b6f-ac67-2906a09ce5c6")
 		(effects
 			(font
 				(size 1 1)
@@ -17,10 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "D_Photo"
+	(property "Value" "D_SiPM"
 		(at 0 4.5 0)
 		(layer "F.Fab")
-		(uuid "35986a74-bed4-4b52-a001-57b7ca9772ae")
+		(hide yes)
+		(uuid "a4038f17-76b4-4ecc-b78b-45ed6eeff043")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f621596d-fbdd-44e7-a049-d31055d29b34")
+		(uuid "c8576a64-cc84-43c9-86e0-43cb47c085cd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "21cc731e-76e9-4ce7-8ac8-6b7ff0eea17f")
+		(uuid "649328c5-9f89-4075-abdb-0d38c6ddaae6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,11 +53,11 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Silicon photomultiplier"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e4e7107a-ecbb-4363-825b-5c9d620e9ce5")
+		(uuid "978f79ed-3370-4f48-8519-f2d90ae243d5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,7 +75,7 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "100c1746-7736-42f5-9cdd-a8ad075822f5")
+		(uuid "a868d35c-87a4-4a2a-9fe4-f2aac3fc7215")
 	)
 	(fp_rect
 		(start -0.5 -0.5)
@@ -85,7 +86,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "d5bed5c4-9a5a-44f2-8235-d6dbcb38c3ac")
+		(uuid "ec2906cf-0999-4019-86cd-7d8a924df336")
 	)
 	(fp_rect
 		(start -1.525 -0.95)
@@ -96,7 +97,7 @@
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "230f4c69-3b71-4480-ace8-81d6b0f2b0ac")
+		(uuid "224a0496-6e9a-4121-9ecc-c5fbf09afc9b")
 	)
 	(fp_rect
 		(start -1.525 -0.95)
@@ -107,30 +108,21 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "38f1e3ce-a045-486d-8392-111df8bf804a")
-	)
-	(fp_text user "${REFERENCE}"
-		(at -0.3125 3 0)
-		(layer "F.Fab")
-		(uuid "cf34a5aa-24ed-4c4a-a710-223c0c53f865")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+		(uuid "439cbe21-2557-4e2a-864c-1974bfc690d2")
 	)
 	(pad "1" smd rect
 		(at -0.3625 -0.925)
 		(size 2.325 1.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "9f0751e2-bf5b-4145-adeb-ea0869628f28")
+		(solder_paste_margin -0.125)
+		(uuid "ec799e4a-2b71-4b83-9807-6b4173698422")
 	)
 	(pad "2" smd rect
 		(at -0.3625 0.925)
 		(size 2.325 1.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "920be34e-f4e3-44f9-b0f9-c8bcbf1215ee")
+		(solder_paste_margin -0.125)
+		(uuid "3d06ae55-b8d8-48ad-ab56-ee6f5a1cd2b3")
 	)
 	(model "${KICAD6_3DMODEL_DIR}/OptoDevice.3dshapes/Hamamatsu_S13360-30CS.wrl"
 		(offset
