@@ -1,0 +1,112 @@
+(footprint "PinHeader_1x02_P2.00mm_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 2.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 2.00mm single row")
+	(property "Reference" "J7"
+		(at 0 -2.06 180)
+		(layer "F.SilkS")
+		(uuid "e07954c0-b03d-4a50-bfd6-cd5eff18286f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RAW3"
+		(at 0 4.06 180)
+		(layer "F.Fab")
+		(uuid "1260d5a9-5aa2-4ed5-aa33-2b20817c7534")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc32539d-cd7c-41da-a7c1-11a20bbe30d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "529d7df4-8363-4428-890d-7b9c9e816eec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15d62d94-5676-4910-941f-1c233c7937be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 90)
+		(layer "F.Fab")
+		(uuid "6270068b-9686-40da-82ac-08b7cc03338b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0 90)
+		(size 2.5 1.55)
+		(drill 1.2
+			(offset 0.45 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c639b96-50d8-4695-b25a-259fd29c6942")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2 270)
+		(size 2.5 1.55)
+		(drill 1.2
+			(offset 0.45 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35b5932f-64b0-4e39-843a-3d3f250beda3")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x02_P2.00mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

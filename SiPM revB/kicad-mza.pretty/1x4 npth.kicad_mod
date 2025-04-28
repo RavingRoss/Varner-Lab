@@ -1,0 +1,112 @@
+(footprint "1x4 npth"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.35 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3ae5160e-40d4-43c1-a775-451b982d7881")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1x4 npth"
+		(at 7.62 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a06ee4e7-aed4-4654-b5d5-49d41ee005b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83c166d9-f30f-4467-a29e-e8385d4ee1f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2edbcdc5-37fa-4bfb-803d-0b771606e720")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2252e110-3d32-48c5-ad3a-96ed319006ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "416689b9-58af-46cc-b227-3944502b2294")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 -3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2cde56ea-7910-4c54-9ad7-774000383b08")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 -1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cd903405-32b0-4e10-a663-85537f8154c1")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 1.27)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "497b0d22-94c1-49ce-b33c-a7bcf541410b")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 3.81)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c159783d-745d-411c-bb65-38426199e2ca")
+	)
+)
