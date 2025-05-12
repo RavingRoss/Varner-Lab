@@ -1,0 +1,712 @@
+---
+MainSourceFile:  'C:/Mac/Home/Documents/PHYS476/FinalProject/Python/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          994159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          994629
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          995100
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        'C:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1278650
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1653966
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_types.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          1654341
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2236195
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2236582
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2236917
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2237140
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2237235
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2237599
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2237681
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2238024
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2238477
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2238522
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2238931
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_helpers.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2239144
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2248626
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2248710
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_3:  '
+    FileOffset:      158
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2249252
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_4:  '
+    FileOffset:      159
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_conv1d_latency.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2249336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2252770
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2253023
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2253384
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2254200
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2254861
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2255995
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2256357
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2257260
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2257779
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2258619
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2258889
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2259413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2259647
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2260007
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2260936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2261053
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2261107
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2261688
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2262175
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2262316
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2263281
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2263918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_459_1:  '
+    FileOffset:      459
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2264754
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_459_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2265096
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_489_1:  '
+    FileOffset:      489
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2265554
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_489_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_1:  '
+    FileOffset:      507
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2266024
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_524_1:  '
+    FileOffset:      524
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2266427
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_524_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_541_1:  '
+    FileOffset:      541
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2266822
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_541_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_571_1:  '
+    FileOffset:      571
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2267488
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_571_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2268062
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_620_1:  '
+    FileOffset:      620
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2268728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_620_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_639_1:  '
+    FileOffset:      639
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2269282
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_639_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_669_1:  '
+    FileOffset:      669
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2269931
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_669_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_696_1:  '
+    FileOffset:      696
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2270769
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_696_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_725_1:  '
+    FileOffset:      725
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2271387
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_725_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_746_1:  '
+    FileOffset:      746
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2272014
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_746_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_764_1:  '
+    FileOffset:      764
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2272403
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_764_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_784_1:  '
+    FileOffset:      784
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2272799
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_784_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2274875
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_2:  '
+    FileOffset:      80
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2275015
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_89_3:  '
+    FileOffset:      89
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2275280
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_89_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_4:  '
+    FileOffset:      98
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2275474
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_5:  '
+    FileOffset:      102
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2275567
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_6:  '
+    FileOffset:      113
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2275893
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_7:  '
+    FileOffset:      117
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2276003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_1:  '
+    FileOffset:      141
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2276969
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_2:  '
+    FileOffset:      145
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2277055
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_1:  '
+    FileOffset:      164
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2277731
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2284038
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_2:  '
+    FileOffset:      222
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2284322
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2287535
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_2:  '
+    FileOffset:      333
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2287677
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_3:  '
+    FileOffset:      341
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_activation_stream.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2287881
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      33
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      107
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      189
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_dense_resource.h'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_dense_compressed.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2314163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\firmware\nnet_utils\nnet_dense_compressed.h'
+    Replacements:    
+      - FilePath:        'C:\Mac\Home\Documents\PHYS476\FinalProject\Python\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp'
+        Offset:          2316034
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+...

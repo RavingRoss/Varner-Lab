@@ -1,0 +1,137 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "2 4 5 9 3 1",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 27,
+    "name": "myproject",
+    "total_instructions": 711821
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 28,
+    "instructions": 23,
+    "loads": {
+      "L": 4
+    },
+    "name": "linear<ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, linear_config7>",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 23
+  },
+  "2": {
+    "basicblocks": 25601,
+    "calls": "8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 193124,
+    "loads": {
+      "L": 13028
+    },
+    "name": "dense_latency<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<72, 40, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 38655
+    },
+    "total_instructions": 193636
+  },
+  "3": {
+    "basicblocks": 2049,
+    "calls": "7 7 7 7",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 19182,
+    "loads": {
+      "L": 1284
+    },
+    "name": "dense_latency<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, config6>",
+    "stores": {
+      "L": 3079
+    },
+    "total_instructions": 19190
+  },
+  "4": {
+    "basicblocks": 385,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 1534,
+    "loads": {
+      "L": 128
+    },
+    "name": "relu<ap_fixed<72, 40, AP_TRN, AP_WRAP, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, relu_config3>",
+    "stores": {
+      "L": 256
+    },
+    "total_instructions": 1534
+  },
+  "5": {
+    "basicblocks": 65537,
+    "calls": "6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6",
+    "file": "nnet_dense_latency.h",
+    "fileloc": 13,
+    "instructions": 493317,
+    "loads": {
+      "L": 33241
+    },
+    "name": "dense_latency<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<72, 40, AP_TRN, AP_WRAP, 0>, config4>",
+    "stores": {
+      "L": 98816
+    },
+    "total_instructions": 494341
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 110,
+    "instructions": 4,
+    "name": "cast<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<72, 40, AP_TRN, AP_WRAP, 0>, config4>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 4
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 110,
+    "instructions": 2,
+    "name": "cast<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, config6>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 2
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 110,
+    "instructions": 4,
+    "name": "cast<ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, ap_fixed<72, 40, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 4
+  },
+  "9": {
+    "basicblocks": 769,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 3070,
+    "loads": {
+      "L": 256
+    },
+    "name": "relu<ap_fixed<72, 40, AP_TRN, AP_WRAP, 0>, ap_fixed<32, 16, AP_TRN, AP_WRAP, 0>, relu_config5>",
+    "stores": {
+      "L": 512
+    },
+    "total_instructions": 3070
+  }
+}

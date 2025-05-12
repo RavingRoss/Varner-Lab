@@ -1,0 +1,18 @@
+name: hls4ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.10
+  - jupyter-book
+  - jsonschema-with-format-nongpl
+  - pydot
+  - graphviz
+  - scikit-learn
+  - tensorflow-datasets==4.8.3
+  - webcolors
+  - widgetsnbextension
+  - pip==23.0.1
+  - pip:
+      - qkeras==0.9.0
+      - conifer==0.2b0
+      - pysr==0.16.3
