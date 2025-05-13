@@ -5,35 +5,34 @@ HLSConfig:
   LayerName:
     dense:
       Precision:
-        accum: auto
         bias: ap_fixed<22,12>
-        result: auto
         weight: ap_fixed<30,14>
-      ReuseFactor: 128
+      ReuseFactor: 64
       Trace: true
     dense_1:
       Precision:
-        accum: auto
         bias: ap_fixed<10,4>
-        result: auto
         weight: ap_fixed<30,18>
-      ReuseFactor: 128
+      ReuseFactor: 64
       Trace: true
     dense_1_linear:
       Precision:
-        result: auto
+        result: ap_fixed<24,12>
+      ReuseFactor: 32
       Trace: true
     dense_relu:
       Precision:
-        result: auto
+        result: ap_fixed<24,12>
+      ReuseFactor: 32
       Trace: true
     input_1:
       Precision:
         result: auto
+      ReuseFactor: 64
       Trace: true
   Model:
     BramFactor: 1000000000
-    Precision: ap_fixed<20,12>
+    Precision: ap_fixed<24,16>
     ReuseFactor: 32
     Strategy: Latency
     TraceOutput: false
@@ -46,11 +45,11 @@ KerasModel: !keras_model 'hls4ml_prj/keras_model.keras'
 OutputDir: hls4ml_prj
 OutputPredictions: Output.dat
 OutputShapes:
-  layer4_out:
+  layer5_out:
   - 2
 Part: xc7a200tsbg484-1
 ProjectName: myproject
-Stamp: a144d8b6
+Stamp: a237ceeb
 Version: 1.0.0
 WriterConfig:
   Namespace: null

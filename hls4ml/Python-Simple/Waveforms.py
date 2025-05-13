@@ -125,29 +125,42 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
     config = hls4ml.utils.config_from_keras_model(model, granularity='name')
     
     # Global defaults
-    config['Model']['Precision'] = 'ap_fixed<20,12>' # trial and error
+    config['Model']['Precision'] = 'ap_fixed<24,16>' # trial and error
     config['Model']['ReuseFactor'] = 32
+    config['LayerName']['input_1']['ReuseFactor'] = 64
     
-     # First layer (dense) – output predictions, more precision needed here
+     # Second layer (dense) – output predictions, more precision needed here
     config['LayerName']['dense'] = {
         'Precision': {
             'weight': 'ap_fixed<30,14>',
             'bias': 'ap_fixed<22,12>',
-            'result': 'auto',
-            'accum': 'auto',
         },
-        'ReuseFactor': 128
+        'ReuseFactor': 64
     }
     
-     # Last layer (dense) – output predictions, more precision needed here
+    # First relu layer (dense_relu) – output predictions, more precision needed here
+    config['LayerName']['dense_relu'] = {
+        'Precision': {
+            'result': 'ap_fixed<24,12>',
+        },
+        'ReuseFactor': 32
+    }
+    
+     # Last layer (dense_1) – output predictions, more precision needed here
     config['LayerName']['dense_1'] = {
         'Precision': {
             'weight': 'ap_fixed<30,18>',
             'bias': 'ap_fixed<10,4>',
-            'result': 'auto',
-            'accum': 'auto',
         },
-        'ReuseFactor': 128
+        'ReuseFactor': 64
+    }
+    
+    # Linear layer (dense_1_linear) – output predictions, more precision needed here
+    config['LayerName']['dense_1_linear'] = {
+        'Precision': {
+            'result': 'ap_fixed<24,12>',
+        },
+        'ReuseFactor': 32
     }
 
     # Enable tracing for all layers
