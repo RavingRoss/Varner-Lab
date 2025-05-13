@@ -4,8 +4,8 @@ ClockUncertainty: 27%
 HLSConfig:
   Model:
     BramFactor: 1000000000
-    Precision: ap_fixed<24,12>
-    ReuseFactor: 32
+    Precision: ap_fixed<24,14>
+    ReuseFactor: 1
     Strategy: Latency
     TraceOutput: false
 IOType: io_parallel
@@ -17,11 +17,11 @@ KerasModel: !keras_model 'hls4ml_prj/keras_model.keras'
 OutputDir: hls4ml_prj
 OutputPredictions: Output.dat
 OutputShapes:
-  layer4_out:
-  - 4
+  layer6_out:
+  - 2
 Part: xc7a200tsbg484-1
 ProjectName: myproject
-Stamp: 602f7a7b
+Stamp: d13b1977
 Version: 1.0.0
 WriterConfig:
   Namespace: null

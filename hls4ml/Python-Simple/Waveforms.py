@@ -29,69 +29,75 @@ def build_hls_model():
     
 def final_test():
     # Final test function to run the entire process
-    hls_model, keras_model, keras_prediction, keras_results, x_testing, y_testing = compile_hls4ml()
+    hls_model, keras_model, predictions, keras_results, x_testing, y_testing = compile_hls4ml()
     hls_prediction = []
     hls_results = []
-    keras_mean = keras_prediction['Keras Mean']
-    keras_sigma = keras_prediction['Keras Sigma']
-    keras_pred = pd.concat((keras_mean, keras_sigma))
+    keras_mean = predictions['Keras Mean']
+    keras_sigma = predictions['Keras Sigma']
     
     print("Running the final test...")
     # Predicting the waveform using the HLS model
-    fig, axs = plt.subplots(5, 2, figsize=(15, 20))
+    fig, axs = plt.subplots(1, 2, figsize=(12, 6))
     axs = axs.flatten()
+    l = 0
     
-    for i in range(10):
+    for i in range(len(x_testing)):
+        l += 1
         testing = np.array(x_testing.iloc[i].values)
         testing = testing.reshape(-1)
         
         # Make prediction
-        print(testing)
+        print(f'\nIteration: {l}\n')
         hls_pred = hls_model.predict(testing)
-        
         hls_prediction.append(hls_pred)
-        print('HLS Prediction:', hls_pred)
-        print("Keras Predication:", keras_pred.values)
+        
+        # Grab input
+        hls_mean, hls_sigma = hls_pred
+        print('HLS Prediction:', hls_mean, hls_sigma)
+        print("Keras Predication:", keras_mean[i], keras_sigma[i])
         
         # Getting the metrics for the HLS prediction
         mse = mean_squared_error(y_testing.iloc[i].values, hls_pred)
         mae = mean_absolute_error(y_testing.iloc[i].values, hls_pred)
         r2 = r2_score(y_testing.iloc[i].values, hls_pred)
 
-        hls_results.append({
-                'MSE' : mse, 
-                'MAE' : mae, 
-                'R2' : r2
-            })
+        hls_results.append([mse, mae, r2])
+            
+        axs[0].scatter(keras_mean[i], hls_mean, color='purple', alpha=0.6, zorder=1)
+        axs[1].scatter(keras_sigma[i], hls_sigma, color='purple', alpha=0.6, zorder=1)
         
-        # Grab input
-        hls_mean, hls_sigma = hls_pred
-        
-        print(hls_mean, hls_sigma)
-        print(keras_mean, keras_sigma)
-        
-    #plt.savefig('Final-Waveform-Prediction.png', dpi=300 , bbox_inches='tight')
-    #plt.show()
+    # Add reference y = x lines
+    hls_prediction = np.array(hls_prediction)
+    mean_min = min(keras_mean.min(), hls_prediction[:,0].min())
+    mean_max = max(keras_mean.max(), hls_prediction[:,0].max())
+    axs[0].plot([mean_min, mean_max], [mean_min, mean_max], 'r--', zorder=2)
+    axs[0].set_xlabel('Keras Mean')
+    axs[0].set_ylabel('HLS Mean')
+    axs[0].set_title('Keras vs. HLS Mean')
+    axs[0].grid(True, zorder=0)
+
+    sigma_min = min(keras_sigma.min(), hls_prediction[:,1].min())
+    sigma_max = max(keras_sigma.max(), hls_prediction[:,1].max())
+    axs[1].plot([sigma_min, sigma_max], [sigma_min, sigma_max], 'r--', zorder=2)
+    axs[1].set_xlabel('Keras Sigma')
+    axs[1].set_ylabel('HLS Sigma')
+    axs[1].set_title('Keras vs. HLS Sigma')
+    axs[1].grid(True, zorder=0)
     
-    '''hls_pred_df = pd.DataFrame(hls_prediction)
-    hls_results_df = pd.DataFrame(hls_results)
-    # Saving the HLS prediction to a CSV file
-    final_prediction = pd.concat([hls_pred_df, keras_pred], axis=1)
-    final_prediction.columns = ['HLS_Mean', 'HLS_Sigma', 'HLS_Height', 'HLS_Pedestal', 
-                                'Keras_Mean', 'Keras_Sigma', 'Keras_Height', 'Keras_Pedestal']
-    final_prediction.to_csv('Final-Prediction.csv', index=False)
-    print("Final prediction saved to Final-Prediction.csv")
-    print(final_prediction)
+    plt.tight_layout()
+        
+    plt.savefig('Final-Prediction.png', dpi=300 , bbox_inches='tight')
+    
+    predictions['HLS Mean'] = hls_prediction[:,0]
+    predictions['HLS Sigma'] = hls_prediction[:,1]
+    print(predictions)
     # Saving the results to a CSV file
+    hls_results_df = pd.DataFrame(hls_results)
     final_results = pd.concat([hls_results_df, keras_results], axis=1)
     final_results.columns = ['HLS_MSE', 'HLS_MAE', 'HLS_R2', 'Keras_MSE', 'Keras_MAE', 'Keras_R2']
     final_results.to_csv('Final-Results.csv', index=False)
     print("Final results saved to Final-Results.csv")
-    print(final_results)'''
-    
-    plt.figure(figsize=(6,6))
-    numerical(model=keras_model, hls_model=hls_model)#, X=x_testing.values)
-    plt.savefig('HLS-Configuration.png', dpi=300 , bbox_inches='tight')
+    print(final_results)
     
     return hls_model
     
@@ -118,8 +124,8 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
     config = hls4ml.utils.config_from_keras_model(model, granularity='model', backend='Vitis')
     
     # Global defaults
-    config['Model']['Precision'] = 'ap_fixed<24,12>' # trial and error
-    config['Model']['ReuseFactor'] = 32
+    config['Model']['Precision'] = 'ap_fixed<24,14>' # trial and error
+    #config['Model']['ReuseFactor'] = 32
 
     # Enable tracing for all layers
     #for layer in config['LayerName'].keys():
@@ -146,6 +152,10 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
     print("Compiling the HLS model...")
     try:
         hls_model.compile()
+        plt.figure(figsize=(6,6))
+        numerical(model=model, hls_model=hls_model)#, X=x_testing.values)
+        plt.savefig('HLS-Configuration.png', dpi=300 , bbox_inches='tight')
+        plt.show()
     except Exception as e:
         print(f"Compilation failed: {e}")
         raise
@@ -183,7 +193,7 @@ def predict_model():
         x_testing.append(testing)
         # Make prediction
         pred = model.predict(testing)
-        keras_prediction.append(pred[0])
+        keras_prediction.append(pred)
 
         # Grab input
         pred_mean, pred_sigma = pred[0]
@@ -211,16 +221,17 @@ def predict_model():
         print(f'Iteration: {l}')
         
     # Add reference y = x lines
-    mean_min = min(y_test[:,0].min(), pred[:,0].min())
-    mean_max = max(y_test[:,0].max(), pred[:,0].max())
+    keras_prediction = np.array(keras_prediction)
+    mean_min = min(y_test[:,0].min(), keras_prediction[:,0].min())
+    mean_max = max(y_test[:,0].max(), keras_prediction[:,0].max())
     axs[0].plot([mean_min, mean_max], [mean_min, mean_max], 'r--', zorder=2)
     axs[0].set_xlabel('True Mean')
     axs[0].set_ylabel('Predicted Mean')
     axs[0].set_title('Predicted vs. True Mean')
     axs[0].grid(True, zorder=0)
 
-    sigma_min = min(y_test[:,1].min(), pred[:,1].min())
-    sigma_max = max(y_test[:,1].max(), pred[:,1].max())
+    sigma_min = min(y_test[:,1].min(), keras_prediction[:,1].min())
+    sigma_max = max(y_test[:,1].max(), keras_prediction[:,1].max())
     axs[1].plot([sigma_min, sigma_max], [sigma_min, sigma_max], 'r--', zorder=2)
     axs[1].set_xlabel('True Sigma')
     axs[1].set_ylabel('Predicted Sigma')
@@ -230,7 +241,7 @@ def predict_model():
     plt.tight_layout()
     
     plt.savefig('Keras-Waveform-Prediction.png', dpi=300 , bbox_inches='tight')
-    plt.show()
+    #plt.show()
     
     # Saving test file and Keras results to a CSV file
     print("Saving the results...")
@@ -338,4 +349,4 @@ def preprocess_data(trainFile='waveform_data_0.npy', testFile='waveform_data_1.n
     return x_train, x_test, y_train, y_test
 
 if __name__ == '__main__':
-    predict_model()
+    final_test()
