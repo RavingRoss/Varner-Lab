@@ -7,7 +7,7 @@ HLSConfig:
       Precision:
         bias: ap_fixed<22,12>
         weight: ap_fixed<30,14>
-      ReuseFactor: 64
+      ReuseFactor: 50
       Trace: true
     dense_1:
       Precision:
@@ -34,7 +34,7 @@ HLSConfig:
     BramFactor: 1000000000
     Precision: ap_fixed<18,14>
     ReuseFactor: 32
-    Strategy: Latency
+    Strategy: Resource
     TraceOutput: false
 IOType: io_parallel
 InputData: Input.dat
@@ -49,7 +49,7 @@ OutputShapes:
   - 2
 Part: xc7a200tsbg484-1
 ProjectName: myproject
-Stamp: 20a544b6
+Stamp: e7f0a499
 Version: 1.0.0
 WriterConfig:
   Namespace: null

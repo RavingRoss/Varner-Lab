@@ -135,7 +135,7 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
             'weight': 'ap_fixed<30,14>',
             'bias': 'ap_fixed<22,12>',
         },
-        'ReuseFactor': 64
+        'ReuseFactor': 50
     }
     
     # First relu layer (dense_relu) – output predictions, more precision needed here
@@ -165,6 +165,7 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
 
     # Enable tracing for all layers
     for layer in config['LayerName'].keys():
+        config['Model']['Strategy'] = 'Resource'   # Strategy must be present for optimization
         config['LayerName'][layer]['Trace'] = True
     
     # Replace plotting.print_dict(config) with:
