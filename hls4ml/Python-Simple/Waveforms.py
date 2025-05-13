@@ -122,7 +122,7 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
         
     # Convert the Keras model to HLS
     print(model.summary())
-    config = hls4ml.utils.config_from_keras_model(model, granularity='model', backend='Vitis')
+    config = hls4ml.utils.config_from_keras_model(model, granularity='model')
     
     # Global defaults
     config['Model']['Precision'] = 'ap_fixed<24,14>' # trial and error
@@ -140,9 +140,7 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
         output_dir='hls4ml_prj', 
         part='xc7a200tsbg484-1',
         input_data_tb = "Input.dat",
-        output_data_tb = "Output.dat",
-        backend='vitis'
-        # cpp_flags='-D__NO_STD_COMPLEX__'
+        output_data_tb = "Output.dat"
     )
 
     # Displaying the model structure
@@ -194,7 +192,7 @@ def predict_model():
         x_testing.append(testing)
         # Make prediction
         pred = model.predict(testing)
-        keras_prediction.append(pred)
+        keras_prediction.append(pred[0])
 
         # Grab input
         pred_mean, pred_sigma = pred[0]
@@ -250,7 +248,6 @@ def predict_model():
     x_testing_df = pd.DataFrame(x_testing_array)
     x_testing_df.to_csv('Keras-Test.csv', index=False)
     results_df = pd.DataFrame(results)
-    results_df.to_csv('Keras-Results.csv', index=False)
     prediction_df = pd.DataFrame(prediction)
     prediction_df.to_csv('Keras-Prediction.csv', index=False)
     y_testing_df = pd.DataFrame(y_testing)
@@ -265,7 +262,7 @@ def predict_model():
     
     return model, prediction_df, results_df, x_testing_df, y_testing_df
 
-def train_model(epochNum=40, verboseVal=1):
+def train_model(epochNum=60, verboseVal=1):
     # Training the model using verbose=0 to suppress output
     # If you want to see the training process, set verbose=1
     
@@ -309,7 +306,6 @@ def build_model():
     model = Sequential([
         Input(shape=(100,)), # Input the full waveform
         Dense(64, activation='relu'),
-        Dense(128, activation='relu'),
         Dense(2)]) # Output the waveform parameters
     model.compile(optimizer=Adam(learning_rate=0.001), 
                 loss=MeanSquaredError(), 
@@ -350,4 +346,4 @@ def preprocess_data(trainFile='waveform_data_0.npy', testFile='waveform_data_1.n
     return x_train, x_test, y_train, y_test
 
 if __name__ == '__main__':
-    final_test()
+    predict_model()

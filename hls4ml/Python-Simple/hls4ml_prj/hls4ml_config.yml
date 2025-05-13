@@ -1,5 +1,5 @@
 Backend: Vitis
-ClockPeriod: 5
+ClockPeriod: 10
 ClockUncertainty: 27%
 HLSConfig:
   Model:
