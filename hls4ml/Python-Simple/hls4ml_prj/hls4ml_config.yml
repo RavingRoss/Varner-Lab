@@ -32,7 +32,7 @@ HLSConfig:
       Trace: true
   Model:
     BramFactor: 1000000000
-    Precision: ap_fixed<24,16>
+    Precision: ap_fixed<18,14>
     ReuseFactor: 32
     Strategy: Latency
     TraceOutput: false
@@ -49,7 +49,7 @@ OutputShapes:
   - 2
 Part: xc7a200tsbg484-1
 ProjectName: myproject
-Stamp: a237ceeb
+Stamp: 20a544b6
 Version: 1.0.0
 WriterConfig:
   Namespace: null

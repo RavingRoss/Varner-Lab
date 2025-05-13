@@ -125,7 +125,7 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
     config = hls4ml.utils.config_from_keras_model(model, granularity='name')
     
     # Global defaults
-    config['Model']['Precision'] = 'ap_fixed<24,16>' # trial and error
+    config['Model']['Precision'] = 'ap_fixed<18,14>' # trial and error
     config['Model']['ReuseFactor'] = 32
     config['LayerName']['input_1']['ReuseFactor'] = 64
     
