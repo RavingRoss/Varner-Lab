@@ -7,9 +7,9 @@
 #define B4_H_
 
 #ifndef __SYNTHESIS__
-model_default_t b4[2];
+dense_1_bias_t b4[2];
 #else
-model_default_t b4[2] = {4.0146889686584473, 1.0554133653640747};
+dense_1_bias_t b4[2] = {4.014689, 1.055413};
 
 #endif
 

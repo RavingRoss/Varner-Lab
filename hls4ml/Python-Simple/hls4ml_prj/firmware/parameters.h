@@ -27,14 +27,14 @@ struct config2 : nnet::dense_config {
     static const unsigned n_out = 64;
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned strategy = nnet::latency;
-    static const unsigned reuse_factor = 32;
+    static const unsigned reuse_factor = 128;
     static const unsigned n_zeros = 0;
     static const unsigned n_nonzeros = 6400;
     static const unsigned multiplier_limit = DIV_ROUNDUP(n_in * n_out, reuse_factor) - n_zeros / reuse_factor;
     static const bool store_weights_in_bram = false;
-    typedef model_default_t accum_t;
-    typedef model_default_t bias_t;
-    typedef model_default_t weight_t;
+    typedef dense_accum_t accum_t;
+    typedef dense_bias_t bias_t;
+    typedef dense_weight_t weight_t;
     typedef layer2_index index_t;
     template<class data_T, class res_T, class CONFIG_T>
     using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;
@@ -57,14 +57,14 @@ struct config4 : nnet::dense_config {
     static const unsigned n_out = 2;
     static const unsigned io_type = nnet::io_parallel;
     static const unsigned strategy = nnet::latency;
-    static const unsigned reuse_factor = 32;
+    static const unsigned reuse_factor = 128;
     static const unsigned n_zeros = 0;
     static const unsigned n_nonzeros = 128;
     static const unsigned multiplier_limit = DIV_ROUNDUP(n_in * n_out, reuse_factor) - n_zeros / reuse_factor;
     static const bool store_weights_in_bram = false;
-    typedef model_default_t accum_t;
-    typedef model_default_t bias_t;
-    typedef model_default_t weight_t;
+    typedef dense_1_accum_t accum_t;
+    typedef dense_1_bias_t bias_t;
+    typedef dense_1_weight_t weight_t;
     typedef layer4_index index_t;
     template<class data_T, class res_T, class CONFIG_T>
     using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;

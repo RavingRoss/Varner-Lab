@@ -122,15 +122,37 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
         
     # Convert the Keras model to HLS
     print(model.summary())
-    config = hls4ml.utils.config_from_keras_model(model, granularity='model')
+    config = hls4ml.utils.config_from_keras_model(model, granularity='name')
     
     # Global defaults
-    config['Model']['Precision'] = 'ap_fixed<30,14>' # trial and error
+    config['Model']['Precision'] = 'ap_fixed<20,12>' # trial and error
     config['Model']['ReuseFactor'] = 32
+    
+     # First layer (dense) – output predictions, more precision needed here
+    config['LayerName']['dense'] = {
+        'Precision': {
+            'weight': 'ap_fixed<30,14>',
+            'bias': 'ap_fixed<22,12>',
+            'result': 'auto',
+            'accum': 'auto',
+        },
+        'ReuseFactor': 128
+    }
+    
+     # Last layer (dense) – output predictions, more precision needed here
+    config['LayerName']['dense_1'] = {
+        'Precision': {
+            'weight': 'ap_fixed<30,18>',
+            'bias': 'ap_fixed<10,4>',
+            'result': 'auto',
+            'accum': 'auto',
+        },
+        'ReuseFactor': 128
+    }
 
     # Enable tracing for all layers
-    #for layer in config['LayerName'].keys():
-        #config['LayerName'][layer]['Trace'] = True
+    for layer in config['LayerName'].keys():
+        config['LayerName'][layer]['Trace'] = True
     
     # Replace plotting.print_dict(config) with:
     print_dict(config)
