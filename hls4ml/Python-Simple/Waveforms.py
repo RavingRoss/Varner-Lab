@@ -90,6 +90,7 @@ def final_test():
     
     predictions['HLS Mean'] = hls_prediction[:,0]
     predictions['HLS Sigma'] = hls_prediction[:,1]
+    predictions.to_csv('Final-Prediction.csv', index=False)
     print(predictions)
     # Saving the results to a CSV file
     hls_results_df = pd.DataFrame(hls_results)
