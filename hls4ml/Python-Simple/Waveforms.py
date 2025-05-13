@@ -29,10 +29,12 @@ def build_hls_model():
     
 def final_test():
     # Final test function to run the entire process
-    hls_model, keras_model, keras_pred, keras_results, x_testing, y_testing = compile_hls4ml()
+    hls_model, keras_model, keras_prediction, keras_results, x_testing, y_testing = compile_hls4ml()
     hls_prediction = []
     hls_results = []
-    keras_pred = keras_pred.iloc[:, 1:]
+    keras_mean = keras_prediction['Keras Mean']
+    keras_sigma = keras_prediction['Keras Sigma']
+    keras_pred = pd.concat((keras_mean, keras_sigma))
     
     print("Running the final test...")
     # Predicting the waveform using the HLS model
@@ -49,7 +51,7 @@ def final_test():
         
         hls_prediction.append(hls_pred)
         print('HLS Prediction:', hls_pred)
-        print("Keras Predication:", keras_pred.iloc[i].values)
+        print("Keras Predication:", keras_pred.values)
         
         # Getting the metrics for the HLS prediction
         mse = mean_squared_error(y_testing.iloc[i].values, hls_pred)
@@ -63,32 +65,15 @@ def final_test():
             })
         
         # Grab input
-        hls_mean, hls_sigma, hls_height, hls_pedestal = hls_pred
-        keras_mean, keras_sigma, keras_height, keras_pedestal = keras_pred.iloc[i].values
-        # Generate ideal Gaussian
-        hls_plot = generate_gaussian(hls_mean, hls_sigma, hls_height, hls_pedestal, 100)
-        keras_plot = generate_gaussian(keras_mean, keras_sigma, keras_height, keras_pedestal, 100)
+        hls_mean, hls_sigma = hls_pred
         
-        axs[i].plot(testing.flatten(), '-', label='True')
-        axs[i].plot(hls_plot, '.', label='HLS Prediction')
-        axs[i].plot(keras_plot, ':', label='Keras Prediction')
-        # Dummy lines for legend showing metric text
-        axs[i].plot([], [], ' ', label=f'MSE: {mse:.2f}')
-        axs[i].plot([], [], ' ', label=f'MAE: {mae:.2f}')
-        axs[i].plot([], [], ' ', label=f'R²: {r2:.3f}')
-        axs[i].set_xlim(0, 100)
-        axs[i].legend(loc='best')
-        axs[i].set_title(f'Event Number {i+1}', fontsize=10, fontweight='bold')
+        print(hls_mean, hls_sigma)
+        print(keras_mean, keras_sigma)
         
-    # Shared labels and title
-    fig.suptitle("HLS Waveform Prediction", fontsize=16, fontweight='bold')
-    fig.supxlabel("Sample Number", fontsize=12, fontweight='bold')
-    fig.supylabel("ADC Counts", fontsize=12, fontweight='bold')
-    plt.tight_layout(rect=[0, 0, 1, 0.99])  # Avoid overlap with suptitle
-    plt.savefig('Final-Waveform-Prediction.png', dpi=300 , bbox_inches='tight')
+    #plt.savefig('Final-Waveform-Prediction.png', dpi=300 , bbox_inches='tight')
     #plt.show()
     
-    hls_pred_df = pd.DataFrame(hls_prediction)
+    '''hls_pred_df = pd.DataFrame(hls_prediction)
     hls_results_df = pd.DataFrame(hls_results)
     # Saving the HLS prediction to a CSV file
     final_prediction = pd.concat([hls_pred_df, keras_pred], axis=1)
@@ -102,7 +87,7 @@ def final_test():
     final_results.columns = ['HLS_MSE', 'HLS_MAE', 'HLS_R2', 'Keras_MSE', 'Keras_MAE', 'Keras_R2']
     final_results.to_csv('Final-Results.csv', index=False)
     print("Final results saved to Final-Results.csv")
-    print(final_results)
+    print(final_results)'''
     
     plt.figure(figsize=(6,6))
     numerical(model=keras_model, hls_model=hls_model)#, X=x_testing.values)
@@ -184,27 +169,29 @@ def predict_model():
     y_testing = []
     results = []
     keras_prediction = []
+    prediction = []
     
     print("Predicting the waveform...")
     
-    fig, axs = plt.subplots(5, 2, figsize=(15, 20))
+    fig, axs = plt.subplots(1, 2, figsize=(12, 6))
     axs = axs.flatten()
-
-    for i in range(10):
-        
+    l = 0
+    
+    for i in range(len(x_test)):
+        l += 1
         testing = x_test[i][:].reshape(1, 100)
-        print(testing)
         x_testing.append(testing)
         # Make prediction
         pred = model.predict(testing)
         keras_prediction.append(pred[0])
-        print(pred[0])
-        print(y_test[i])
 
         # Grab input
-        mean, sigma, height, pedestal = pred[0]
-        # Generate ideal Gaussian
-        prediction = generate_gaussian(mean, sigma, height, pedestal, 100)
+        pred_mean, pred_sigma = pred[0]
+        true_mean, true_sigma = y_test[i]
+        prediction.append({'True Mean': true_mean, 
+                            'True Sigma': true_sigma,
+                            'Keras Mean': pred_mean,
+                            'Keras Sigma': pred_sigma})
 
         # Showing the metrics for the model prediction
         mse = mean_squared_error(y_test[i], pred[0])
@@ -218,24 +205,32 @@ def predict_model():
                 'MAE' : mae, 
                 'R2' : r2
             })
-
-        axs[i].plot(testing.flatten(), '-', label='True')
-        axs[i].plot(prediction, ':', label='Prediction')
-        # Dummy lines for legend showing metric text
-        axs[i].plot([], [], ' ', label=f'MSE: {mse:.2f}')
-        axs[i].plot([], [], ' ', label=f'MAE: {mae:.2f}')
-        axs[i].plot([], [], ' ', label=f'R²: {r2:.3f}')
-        axs[i].set_xlim(0, 100)
-        axs[i].legend(loc='best')
-        axs[i].set_title(f'Event Number {i+1}', fontsize=10, fontweight='bold')
         
-    # Shared labels and title
-    fig.suptitle("Keras Waveform Prediction", fontsize=16, fontweight='bold')
-    fig.supxlabel("Sample Number", fontsize=12, fontweight='bold')
-    fig.supylabel("ADC Counts", fontsize=12, fontweight='bold')
-    plt.tight_layout(rect=[0, 0, 1, 0.99])  # Avoid overlap with suptitle
+        axs[0].scatter(true_mean, pred_mean, color='blue', alpha=0.6, zorder=1)
+        axs[1].scatter(true_sigma, pred_sigma, color='blue', alpha=0.6, zorder=1)
+        print(f'Iteration: {l}')
+        
+    # Add reference y = x lines
+    mean_min = min(y_test[:,0].min(), pred[:,0].min())
+    mean_max = max(y_test[:,0].max(), pred[:,0].max())
+    axs[0].plot([mean_min, mean_max], [mean_min, mean_max], 'r--', zorder=2)
+    axs[0].set_xlabel('True Mean')
+    axs[0].set_ylabel('Predicted Mean')
+    axs[0].set_title('Predicted vs. True Mean')
+    axs[0].grid(True, zorder=0)
+
+    sigma_min = min(y_test[:,1].min(), pred[:,1].min())
+    sigma_max = max(y_test[:,1].max(), pred[:,1].max())
+    axs[1].plot([sigma_min, sigma_max], [sigma_min, sigma_max], 'r--', zorder=2)
+    axs[1].set_xlabel('True Sigma')
+    axs[1].set_ylabel('Predicted Sigma')
+    axs[1].set_title('Predicted vs. True Sigma')
+    axs[1].grid(True, zorder=0)
+    
+    plt.tight_layout()
+    
     plt.savefig('Keras-Waveform-Prediction.png', dpi=300 , bbox_inches='tight')
-    #plt.show()
+    plt.show()
     
     # Saving test file and Keras results to a CSV file
     print("Saving the results...")
@@ -244,28 +239,21 @@ def predict_model():
     x_testing_df.to_csv('Keras-Test.csv', index=False)
     results_df = pd.DataFrame(results)
     results_df.to_csv('Keras-Results.csv', index=False)
-    keras_prediction_df = pd.DataFrame(keras_prediction)
-    keras_prediction_df.drop(keras_prediction_df.columns[0], axis=1)
-    keras_prediction_df.to_csv('Keras-Prediction.csv')
+    prediction_df = pd.DataFrame(prediction)
+    prediction_df.to_csv('Keras-Prediction.csv', index=False)
     y_testing_df = pd.DataFrame(y_testing)
     y_testing_df.to_csv('Test-Waves.csv', index=False)
-    
-    print(results_df)
-    
+        
     # Creating txt files to later use for HLS Csimulation
+    keras_prediction = np.array(keras_prediction)
     with open('Input.dat', 'w') as f:
         csv.writer(f, delimiter=',').writerows(x_test)
     with open('Output.dat', 'w') as f:
-        csv.writer(f, delimiter=',').writerows(pred)
+        csv.writer(f, delimiter=',').writerows(keras_prediction)
     
-    return model, keras_prediction_df, results_df, x_testing_df, y_testing_df
+    return model, prediction_df, results_df, x_testing_df, y_testing_df
 
-def generate_gaussian(mean, sigma, height, pedestal, length):
-    # Generating the Gaussian function
-    x = np.arange(length)
-    return pedestal + height * np.exp(-0.5 * ((x - mean) / sigma) ** 2)
-
-def train_model(epochNum=5, verboseVal=1):
+def train_model(epochNum=40, verboseVal=1):
     # Training the model using verbose=0 to suppress output
     # If you want to see the training process, set verbose=1
     
@@ -308,29 +296,14 @@ def build_model():
     # Define the model
     model = Sequential([
         Input(shape=(100,)), # Input the full waveform
-        Dense(32, activation='relu'),
-        Dense(4)]) # Output the waveform parameters
+        Dense(64, activation='relu'),
+        Dense(128, activation='relu'),
+        Dense(2)]) # Output the waveform parameters
     model.compile(optimizer=Adam(learning_rate=0.001), 
                 loss=MeanSquaredError(), 
                 metrics=[MeanAbsoluteError()])
     model.summary()
     
-    return model
-
-def build_flat_model():
-    # Building the model using the Functional API
-    print("Building the model...")
-    input_layer = Input(shape=(100,), name="input_layer")  # Input the full waveform
-    x = Dense(128, activation='relu', name="dense_1")(input_layer)
-    x = Dense(256, activation='relu', name="dense_2")(x)
-    output_layer = Dense(4, name="output_layer")(x)  # Output the waveform parameters
-
-    model = Model(inputs=input_layer, outputs=output_layer, name="waveform_model")
-    model.compile(optimizer=Adam(learning_rate=0.001), 
-                  loss=MeanSquaredError(), 
-                  metrics=[MeanAbsoluteError()])
-    model.summary()
-
     return model
 
 def preprocess_data(trainFile='waveform_data_0.npy', testFile='waveform_data_1.npy'):
@@ -341,9 +314,9 @@ def preprocess_data(trainFile='waveform_data_0.npy', testFile='waveform_data_1.n
     # Split into input and output for features and labels
     x_train = train[:,4:] 
     x_test = test[:,4:]  
-    y_train = train[:,:4]
-    y_test = test[:,:4]   
-
+    y_train = train[:,:2]
+    y_test = test[:,:2]   
+    
     # Plotting the average of the waveforms
     plot_x = []
     plot_y = []
@@ -365,4 +338,4 @@ def preprocess_data(trainFile='waveform_data_0.npy', testFile='waveform_data_1.n
     return x_train, x_test, y_train, y_test
 
 if __name__ == '__main__':
-    final_test()
+    predict_model()
