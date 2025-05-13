@@ -11,7 +11,7 @@
 // Prototype of top level function for C-synthesis
 void myproject(
     input_t input_1[N_INPUT_1_1],
-    result_t layer6_out[N_LAYER_6]
+    result_t layer4_out[N_LAYER_4]
 );
 
 

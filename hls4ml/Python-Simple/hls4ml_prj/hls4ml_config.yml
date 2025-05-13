@@ -1,11 +1,11 @@
-Backend: Vitis
-ClockPeriod: 10
-ClockUncertainty: 27%
+Backend: Vivado
+ClockPeriod: 5
+ClockUncertainty: 12.5%
 HLSConfig:
   Model:
     BramFactor: 1000000000
-    Precision: ap_fixed<24,14>
-    ReuseFactor: 1
+    Precision: ap_fixed<30,14>
+    ReuseFactor: 32
     Strategy: Latency
     TraceOutput: false
 IOType: io_parallel
@@ -17,11 +17,11 @@ KerasModel: !keras_model 'hls4ml_prj/keras_model.keras'
 OutputDir: hls4ml_prj
 OutputPredictions: Output.dat
 OutputShapes:
-  layer6_out:
+  layer4_out:
   - 2
 Part: xc7a200tsbg484-1
 ProjectName: myproject
-Stamp: 344897c4
+Stamp: c3ccaba7
 Version: 1.0.0
 WriterConfig:
   Namespace: null

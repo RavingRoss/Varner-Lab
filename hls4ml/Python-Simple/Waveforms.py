@@ -125,8 +125,8 @@ def compile_hls4ml(model_path='KERAS_model.h5'):
     config = hls4ml.utils.config_from_keras_model(model, granularity='model')
     
     # Global defaults
-    config['Model']['Precision'] = 'ap_fixed<24,14>' # trial and error
-    #config['Model']['ReuseFactor'] = 32
+    config['Model']['Precision'] = 'ap_fixed<30,14>' # trial and error
+    config['Model']['ReuseFactor'] = 32
 
     # Enable tracing for all layers
     #for layer in config['LayerName'].keys():
@@ -346,4 +346,4 @@ def preprocess_data(trainFile='waveform_data_0.npy', testFile='waveform_data_1.n
     return x_train, x_test, y_train, y_test
 
 if __name__ == '__main__':
-    predict_model()
+    final_test()
