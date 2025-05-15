@@ -15,7 +15,7 @@ with open("stimulus_data.txt", "w") as f:
         f.write(f"reg [18:0] input_1_{i};\n")
     for i, val in enumerate(data_values):
         bin_val = format(int(val), '014b')
-        f.write(f"input_1_{i} = 18'b{bin_val}0000;\n")
+        f.write(f"#10 input_1_{i} = 18'b{bin_val}0000;\n")
     
     f.write("\n// Concatenate all into one 1800-bit input_1\n")
     concat = ', '.join([f"input_1_{i}" for i in reversed(range(len(data_values)))])
