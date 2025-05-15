@@ -1,0 +1,504 @@
+
+
+================================================================
+== Vitis HLS Report for 'linear_ap_fixed_18_14_5_3_0_ap_fixed_24_12_5_3_0_linear_config5_s'
+================================================================
+* Date:           Tue May 13 05:08:58 2025
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: artix7
+* Target device:  xc7a200t-sbg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  15.00 ns|  3.908 ns|     1.88 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+--------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |   LUT  | URAM|
++-----------------+---------+-----+--------+--------+-----+
+|DSP              |        -|    -|       -|       -|    -|
+|Expression       |        -|    -|       0|       2|    -|
+|FIFO             |        -|    -|       -|       -|    -|
+|Instance         |        -|    -|       -|       -|    -|
+|Memory           |        -|    -|       -|       -|    -|
+|Multiplexer      |        -|    -|       -|      27|    -|
+|Register         |        -|    -|      34|       -|    -|
++-----------------+---------+-----+--------+--------+-----+
+|Total            |        0|    0|      34|      29|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Available        |      730|  740|  269200|  134600|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Utilization (%)  |        0|    0|      ~0|      ~0|    0|
++-----------------+---------+-----+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------+----------+----+---+----+------------+------------+
+    |  Variable Name  | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |ap_block_state1  |        or|   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |Total            |          |   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------+----+-----------+-----+-----------+
+    |     Name     | LUT| Input Size| Bits| Total Bits|
+    +--------------+----+-----------+-----+-----------+
+    |ap_done       |   9|          2|    1|          2|
+    |layer5_out_0  |   9|          2|   16|         32|
+    |layer5_out_1  |   9|          2|   16|         32|
+    +--------------+----+-----------+-----+-----------+
+    |Total         |  27|          6|   33|         66|
+    +--------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------+----+----+-----+-----------+
+    |        Name       | FF | LUT| Bits| Const Bits|
+    +-------------------+----+----+-----+-----------+
+    |ap_CS_fsm          |   1|   0|    1|          0|
+    |ap_done_reg        |   1|   0|    1|          0|
+    |layer5_out_0_preg  |  16|   0|   24|          8|
+    |layer5_out_1_preg  |  16|   0|   24|          8|
+    +-------------------+----+----+-----+-----------+
+    |Total              |  34|   0|   50|         16|
+    +-------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------+-----+-----+------------+------------------------------------------------------------------------------+--------------+
+|      RTL Ports      | Dir | Bits|  Protocol  |                                 Source Object                                |    C Type    |
++---------------------+-----+-----+------------+------------------------------------------------------------------------------+--------------+
+|ap_clk               |   in|    1|  ap_ctrl_hs|  linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5>|  return value|
+|ap_rst               |   in|    1|  ap_ctrl_hs|  linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5>|  return value|
+|ap_start             |   in|    1|  ap_ctrl_hs|  linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5>|  return value|
+|ap_done              |  out|    1|  ap_ctrl_hs|  linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5>|  return value|
+|ap_continue          |   in|    1|  ap_ctrl_hs|  linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5>|  return value|
+|ap_ce                |   in|    1|  ap_ctrl_hs|  linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5>|  return value|
+|ap_idle              |  out|    1|  ap_ctrl_hs|  linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5>|  return value|
+|ap_ready             |  out|    1|  ap_ctrl_hs|  linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5>|  return value|
+|p_read               |   in|   16|     ap_none|                                                                        p_read|        scalar|
+|p_read1              |   in|   16|     ap_none|                                                                       p_read1|        scalar|
+|layer5_out_0         |  out|   24|      ap_vld|                                                                  layer5_out_0|       pointer|
+|layer5_out_0_ap_vld  |  out|    1|      ap_vld|                                                                  layer5_out_0|       pointer|
+|layer5_out_1         |  out|   24|      ap_vld|                                                                  layer5_out_1|       pointer|
+|layer5_out_1_ap_vld  |  out|    1|      ap_vld|                                                                  layer5_out_1|       pointer|
++---------------------+-----+-----+------------+------------------------------------------------------------------------------+--------------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.90>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specpipeline_ln29 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_0" [firmware/nnet_utils/nnet_activation.h:29]   --->   Operation 2 'specpipeline' 'specpipeline_ln29' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (3.90ns)   --->   "%p_read13 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %p_read1" [firmware/nnet_utils/nnet_activation.h:28]   --->   Operation 3 'read' 'p_read13' <Predicate = true> <Delay = 3.90> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.90> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+ST_1 : Operation 4 [1/1] (3.90ns)   --->   "%p_read_64 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %p_read" [firmware/nnet_utils/nnet_activation.h:28]   --->   Operation 4 'read' 'p_read_64' <Predicate = true> <Delay = 3.90> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.90> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%shl_ln = bitconcatenate i24 @_ssdm_op_BitConcatenate.i24.i16.i8, i16 %p_read_64, i8 0" [firmware/nnet_utils/nnet_activation.h:32]   --->   Operation 5 'bitconcatenate' 'shl_ln' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%shl_ln32_1 = bitconcatenate i24 @_ssdm_op_BitConcatenate.i24.i16.i8, i16 %p_read13, i8 0" [firmware/nnet_utils/nnet_activation.h:32]   --->   Operation 6 'bitconcatenate' 'shl_ln32_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%write_ln32 = write void @_ssdm_op_Write.ap_auto.i24P0A, i24 %layer5_out_0, i24 %shl_ln" [firmware/nnet_utils/nnet_activation.h:32]   --->   Operation 7 'write' 'write_ln32' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%write_ln32 = write void @_ssdm_op_Write.ap_auto.i24P0A, i24 %layer5_out_1, i24 %shl_ln32_1" [firmware/nnet_utils/nnet_activation.h:32]   --->   Operation 8 'write' 'write_ln32' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%ret_ln34 = ret" [firmware/nnet_utils/nnet_activation.h:34]   --->   Operation 9 'ret' 'ret_ln34' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+STG Binding: 
+---------------- STG Properties BEGIN ----------------
+- Is combinational: 0
+- Is one-state seq: 1
+- Is datapath-only: 0
+- Is pipelined: 1
+- Is top level: 0
+Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
+Port [ p_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ p_read1]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ layer5_out_0]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=0; pingpong=0; private_global=0; IO mode=ap_vld:ce=0
+Port [ layer5_out_1]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=0; pingpong=0; private_global=0; IO mode=ap_vld:ce=0
+---------------- STG Properties END ------------------
+
+---------------- Datapath Model BEGIN ----------------
+
+<LifeTime>
+<method=bitvector/>
+specpipeline_ln29 (specpipeline  ) [ 00]
+p_read13          (read          ) [ 00]
+p_read_64         (read          ) [ 00]
+shl_ln            (bitconcatenate) [ 00]
+shl_ln32_1        (bitconcatenate) [ 00]
+write_ln32        (write         ) [ 00]
+write_ln32        (write         ) [ 00]
+ret_ln34          (ret           ) [ 00]
+</LifeTime>
+
+<model>
+
+<comp_list>
+<comp id="0" class="1000" name="p_read">
+<pin_list>
+<pin id="1" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="p_read"/></StgValue>
+</bind>
+</comp>
+
+<comp id="2" class="1000" name="p_read1">
+<pin_list>
+<pin id="3" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="p_read1"/></StgValue>
+</bind>
+</comp>
+
+<comp id="4" class="1000" name="layer5_out_0">
+<pin_list>
+<pin id="5" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="layer5_out_0"/></StgValue>
+</bind>
+</comp>
+
+<comp id="6" class="1000" name="layer5_out_1">
+<pin_list>
+<pin id="7" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="layer5_out_1"/></StgValue>
+</bind>
+</comp>
+
+<comp id="8" class="1001" name="const_8">
+<pin_list>
+<pin id="9" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_SpecPipeline"/></StgValue>
+</bind>
+</comp>
+
+<comp id="10" class="1001" name="const_10">
+<pin_list>
+<pin id="11" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="12" class="1001" name="const_12">
+<pin_list>
+<pin id="13" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="14" class="1001" name="const_14">
+<pin_list>
+<pin id="15" dir="1" index="0" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="empty_0"/></StgValue>
+</bind>
+</comp>
+
+<comp id="16" class="1001" name="const_16">
+<pin_list>
+<pin id="17" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_Read.ap_auto.i16"/></StgValue>
+</bind>
+</comp>
+
+<comp id="18" class="1001" name="const_18">
+<pin_list>
+<pin id="19" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_BitConcatenate.i24.i16.i8"/></StgValue>
+</bind>
+</comp>
+
+<comp id="20" class="1001" name="const_20">
+<pin_list>
+<pin id="21" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name=""/></StgValue>
+</bind>
+</comp>
+
+<comp id="22" class="1001" name="const_22">
+<pin_list>
+<pin id="23" dir="1" index="0" bw="1" slack="0"/>
+</pin_list>
+<bind>
+<StgValue><ssdm name="_ssdm_op_Write.ap_auto.i24P0A"/></StgValue>
+</bind>
+</comp>
+
+<comp id="24" class="1004" name="p_read13_read_fu_24">
+<pin_list>
+<pin id="25" dir="0" index="0" bw="16" slack="0"/>
+<pin id="26" dir="0" index="1" bw="16" slack="0"/>
+<pin id="27" dir="1" index="2" bw="16" slack="0"/>
+</pin_list>
+<bind>
+<opcode="read(1150) " fcode="read"/>
+<opset="p_read13/1 "/>
+</bind>
+</comp>
+
+<comp id="30" class="1004" name="p_read_64_read_fu_30">
+<pin_list>
+<pin id="31" dir="0" index="0" bw="16" slack="0"/>
+<pin id="32" dir="0" index="1" bw="16" slack="0"/>
+<pin id="33" dir="1" index="2" bw="16" slack="0"/>
+</pin_list>
+<bind>
+<opcode="read(1150) " fcode="read"/>
+<opset="p_read_64/1 "/>
+</bind>
+</comp>
+
+<comp id="36" class="1004" name="write_ln32_write_fu_36">
+<pin_list>
+<pin id="37" dir="0" index="0" bw="0" slack="0"/>
+<pin id="38" dir="0" index="1" bw="24" slack="0"/>
+<pin id="39" dir="0" index="2" bw="24" slack="0"/>
+<pin id="40" dir="1" index="3" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="write(1151) " fcode="write"/>
+<opset="write_ln32/1 "/>
+</bind>
+</comp>
+
+<comp id="43" class="1004" name="write_ln32_write_fu_43">
+<pin_list>
+<pin id="44" dir="0" index="0" bw="0" slack="0"/>
+<pin id="45" dir="0" index="1" bw="24" slack="0"/>
+<pin id="46" dir="0" index="2" bw="24" slack="0"/>
+<pin id="47" dir="1" index="3" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="write(1151) " fcode="write"/>
+<opset="write_ln32/1 "/>
+</bind>
+</comp>
+
+<comp id="50" class="1004" name="shl_ln_fu_50">
+<pin_list>
+<pin id="51" dir="0" index="0" bw="24" slack="0"/>
+<pin id="52" dir="0" index="1" bw="16" slack="0"/>
+<pin id="53" dir="0" index="2" bw="1" slack="0"/>
+<pin id="54" dir="1" index="3" bw="24" slack="0"/>
+</pin_list>
+<bind>
+<opcode="bitconcatenate(1004) " fcode="bitconcatenate"/>
+<opset="shl_ln/1 "/>
+</bind>
+</comp>
+
+<comp id="59" class="1004" name="shl_ln32_1_fu_59">
+<pin_list>
+<pin id="60" dir="0" index="0" bw="24" slack="0"/>
+<pin id="61" dir="0" index="1" bw="16" slack="0"/>
+<pin id="62" dir="0" index="2" bw="1" slack="0"/>
+<pin id="63" dir="1" index="3" bw="24" slack="0"/>
+</pin_list>
+<bind>
+<opcode="bitconcatenate(1004) " fcode="bitconcatenate"/>
+<opset="shl_ln32_1/1 "/>
+</bind>
+</comp>
+
+</comp_list>
+
+<net_list>
+<net id="28"><net_src comp="16" pin="0"/><net_sink comp="24" pin=0"/></net>
+
+<net id="29"><net_src comp="2" pin="0"/><net_sink comp="24" pin=1"/></net>
+
+<net id="34"><net_src comp="16" pin="0"/><net_sink comp="30" pin=0"/></net>
+
+<net id="35"><net_src comp="0" pin="0"/><net_sink comp="30" pin=1"/></net>
+
+<net id="41"><net_src comp="22" pin="0"/><net_sink comp="36" pin=0"/></net>
+
+<net id="42"><net_src comp="4" pin="0"/><net_sink comp="36" pin=1"/></net>
+
+<net id="48"><net_src comp="22" pin="0"/><net_sink comp="43" pin=0"/></net>
+
+<net id="49"><net_src comp="6" pin="0"/><net_sink comp="43" pin=1"/></net>
+
+<net id="55"><net_src comp="18" pin="0"/><net_sink comp="50" pin=0"/></net>
+
+<net id="56"><net_src comp="30" pin="2"/><net_sink comp="50" pin=1"/></net>
+
+<net id="57"><net_src comp="20" pin="0"/><net_sink comp="50" pin=2"/></net>
+
+<net id="58"><net_src comp="50" pin="3"/><net_sink comp="36" pin=2"/></net>
+
+<net id="64"><net_src comp="18" pin="0"/><net_sink comp="59" pin=0"/></net>
+
+<net id="65"><net_src comp="24" pin="2"/><net_sink comp="59" pin=1"/></net>
+
+<net id="66"><net_src comp="20" pin="0"/><net_sink comp="59" pin=2"/></net>
+
+<net id="67"><net_src comp="59" pin="3"/><net_sink comp="43" pin=2"/></net>
+
+</net_list>
+
+</model> 
+---------------- Datapath Model END ------------------
+
+* FSMD analyzer results:
+  - Output states:
+	Port: layer5_out_0 | {1 }
+	Port: layer5_out_1 | {1 }
+ - Input state : 
+	Port: linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5> : p_read | {1 }
+	Port: linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5> : p_read1 | {1 }
+	Port: linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5> : layer5_out_0 | {}
+	Port: linear<ap_fixed<18, 14, 5, 3, 0>, ap_fixed<24, 12, 5, 3, 0>, linear_config5> : layer5_out_1 | {}
+  - Chain level:
+	State 1
+		write_ln32 : 1
+		write_ln32 : 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+
+* Functional unit list:
+|----------|------------------------|
+| Operation|     Functional Unit    |
+|----------|------------------------|
+|   read   |   p_read13_read_fu_24  |
+|          |  p_read_64_read_fu_30  |
+|----------|------------------------|
+|   write  | write_ln32_write_fu_36 |
+|          | write_ln32_write_fu_43 |
+|----------|------------------------|
+|bitconcatenate|      shl_ln_fu_50      |
+|          |    shl_ln32_1_fu_59    |
+|----------|------------------------|
+|   Total  |                        |
+|----------|------------------------|
+
+Memories:
+N/A
+
+* Register list:
+N/A
+
+* Multiplexer (MUX) list: 
+|--------|------|------|------|--------|
+|  Comp  |  Pin | Size |  BW  | S x BW |
+|--------|------|------|------|--------|
+|  Total |      |      |      |    0   |
+|--------|------|------|------|--------|
+
+
+
+* Summary:
++-----------+
+|           |
++-----------+
+|  Function |
+|   Memory  |
+|Multiplexer|
+|  Register |
++-----------+
+|   Total   |
++-----------+

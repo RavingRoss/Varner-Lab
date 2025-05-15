@@ -1,0 +1,2 @@
+Input = Waveform Event Number 4321
+Output: Mean = 033400, Sigma = fff400

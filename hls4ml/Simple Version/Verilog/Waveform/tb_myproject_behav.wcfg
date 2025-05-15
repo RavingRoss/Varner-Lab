@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_myproject_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_myproject" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,834,956 ps"></ZoomStartTime>
+      <ZoomEndTime time="4,834,979 ps"></ZoomEndTime>
+      <Cursor1Time time="4,835,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="245"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="112" />
+   <wvobject fp_name="/tb_myproject/ap_clk" type="logic">
+      <obj_property name="ElementShortName">ap_clk</obj_property>
+      <obj_property name="ObjectShortName">ap_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/ap_rst" type="logic">
+      <obj_property name="ElementShortName">ap_rst</obj_property>
+      <obj_property name="ObjectShortName">ap_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/ap_start" type="logic">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/ap_done" type="logic">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/ap_idle" type="logic">
+      <obj_property name="ElementShortName">ap_idle</obj_property>
+      <obj_property name="ObjectShortName">ap_idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/ap_ready" type="logic">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_0" type="array">
+      <obj_property name="ElementShortName">input_1_0[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_0[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_1" type="array">
+      <obj_property name="ElementShortName">input_1_1[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_1[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_2" type="array">
+      <obj_property name="ElementShortName">input_1_2[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_2[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_3" type="array">
+      <obj_property name="ElementShortName">input_1_3[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_3[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_4" type="array">
+      <obj_property name="ElementShortName">input_1_4[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_4[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_5" type="array">
+      <obj_property name="ElementShortName">input_1_5[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_5[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_6" type="array">
+      <obj_property name="ElementShortName">input_1_6[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_6[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_7" type="array">
+      <obj_property name="ElementShortName">input_1_7[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_7[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_8" type="array">
+      <obj_property name="ElementShortName">input_1_8[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_8[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_9" type="array">
+      <obj_property name="ElementShortName">input_1_9[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_9[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_10" type="array">
+      <obj_property name="ElementShortName">input_1_10[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_10[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_11" type="array">
+      <obj_property name="ElementShortName">input_1_11[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_11[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_12" type="array">
+      <obj_property name="ElementShortName">input_1_12[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_12[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_13" type="array">
+      <obj_property name="ElementShortName">input_1_13[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_13[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_14" type="array">
+      <obj_property name="ElementShortName">input_1_14[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_14[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_15" type="array">
+      <obj_property name="ElementShortName">input_1_15[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_15[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_16" type="array">
+      <obj_property name="ElementShortName">input_1_16[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_16[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_17" type="array">
+      <obj_property name="ElementShortName">input_1_17[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_17[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_18" type="array">
+      <obj_property name="ElementShortName">input_1_18[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_18[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_19" type="array">
+      <obj_property name="ElementShortName">input_1_19[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_19[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_20" type="array">
+      <obj_property name="ElementShortName">input_1_20[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_20[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_21" type="array">
+      <obj_property name="ElementShortName">input_1_21[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_21[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_22" type="array">
+      <obj_property name="ElementShortName">input_1_22[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_22[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_23" type="array">
+      <obj_property name="ElementShortName">input_1_23[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_23[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_24" type="array">
+      <obj_property name="ElementShortName">input_1_24[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_24[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_25" type="array">
+      <obj_property name="ElementShortName">input_1_25[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_25[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_26" type="array">
+      <obj_property name="ElementShortName">input_1_26[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_26[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_27" type="array">
+      <obj_property name="ElementShortName">input_1_27[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_27[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_28" type="array">
+      <obj_property name="ElementShortName">input_1_28[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_28[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_29" type="array">
+      <obj_property name="ElementShortName">input_1_29[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_29[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_30" type="array">
+      <obj_property name="ElementShortName">input_1_30[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_30[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_31" type="array">
+      <obj_property name="ElementShortName">input_1_31[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_31[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_32" type="array">
+      <obj_property name="ElementShortName">input_1_32[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_32[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_33" type="array">
+      <obj_property name="ElementShortName">input_1_33[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_33[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_34" type="array">
+      <obj_property name="ElementShortName">input_1_34[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_34[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_35" type="array">
+      <obj_property name="ElementShortName">input_1_35[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_35[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_36" type="array">
+      <obj_property name="ElementShortName">input_1_36[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_36[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_37" type="array">
+      <obj_property name="ElementShortName">input_1_37[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_37[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_38" type="array">
+      <obj_property name="ElementShortName">input_1_38[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_38[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_39" type="array">
+      <obj_property name="ElementShortName">input_1_39[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_39[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_40" type="array">
+      <obj_property name="ElementShortName">input_1_40[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_40[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_41" type="array">
+      <obj_property name="ElementShortName">input_1_41[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_41[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_42" type="array">
+      <obj_property name="ElementShortName">input_1_42[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_42[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_43" type="array">
+      <obj_property name="ElementShortName">input_1_43[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_43[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_44" type="array">
+      <obj_property name="ElementShortName">input_1_44[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_44[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_45" type="array">
+      <obj_property name="ElementShortName">input_1_45[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_45[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_46" type="array">
+      <obj_property name="ElementShortName">input_1_46[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_46[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_47" type="array">
+      <obj_property name="ElementShortName">input_1_47[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_47[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_48" type="array">
+      <obj_property name="ElementShortName">input_1_48[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_48[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_49" type="array">
+      <obj_property name="ElementShortName">input_1_49[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_49[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_50" type="array">
+      <obj_property name="ElementShortName">input_1_50[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_50[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_51" type="array">
+      <obj_property name="ElementShortName">input_1_51[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_51[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_52" type="array">
+      <obj_property name="ElementShortName">input_1_52[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_52[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_53" type="array">
+      <obj_property name="ElementShortName">input_1_53[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_53[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_54" type="array">
+      <obj_property name="ElementShortName">input_1_54[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_54[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_55" type="array">
+      <obj_property name="ElementShortName">input_1_55[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_55[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_56" type="array">
+      <obj_property name="ElementShortName">input_1_56[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_56[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_57" type="array">
+      <obj_property name="ElementShortName">input_1_57[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_57[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_58" type="array">
+      <obj_property name="ElementShortName">input_1_58[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_58[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_59" type="array">
+      <obj_property name="ElementShortName">input_1_59[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_59[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_60" type="array">
+      <obj_property name="ElementShortName">input_1_60[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_60[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_61" type="array">
+      <obj_property name="ElementShortName">input_1_61[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_61[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_62" type="array">
+      <obj_property name="ElementShortName">input_1_62[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_62[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_63" type="array">
+      <obj_property name="ElementShortName">input_1_63[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_63[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_64" type="array">
+      <obj_property name="ElementShortName">input_1_64[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_64[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_65" type="array">
+      <obj_property name="ElementShortName">input_1_65[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_65[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_66" type="array">
+      <obj_property name="ElementShortName">input_1_66[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_66[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_67" type="array">
+      <obj_property name="ElementShortName">input_1_67[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_67[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_68" type="array">
+      <obj_property name="ElementShortName">input_1_68[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_68[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_69" type="array">
+      <obj_property name="ElementShortName">input_1_69[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_69[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_70" type="array">
+      <obj_property name="ElementShortName">input_1_70[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_70[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_71" type="array">
+      <obj_property name="ElementShortName">input_1_71[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_71[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_72" type="array">
+      <obj_property name="ElementShortName">input_1_72[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_72[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_73" type="array">
+      <obj_property name="ElementShortName">input_1_73[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_73[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_74" type="array">
+      <obj_property name="ElementShortName">input_1_74[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_74[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_75" type="array">
+      <obj_property name="ElementShortName">input_1_75[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_75[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_76" type="array">
+      <obj_property name="ElementShortName">input_1_76[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_76[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_77" type="array">
+      <obj_property name="ElementShortName">input_1_77[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_77[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_78" type="array">
+      <obj_property name="ElementShortName">input_1_78[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_78[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_79" type="array">
+      <obj_property name="ElementShortName">input_1_79[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_79[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_80" type="array">
+      <obj_property name="ElementShortName">input_1_80[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_80[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_81" type="array">
+      <obj_property name="ElementShortName">input_1_81[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_81[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_82" type="array">
+      <obj_property name="ElementShortName">input_1_82[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_82[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_83" type="array">
+      <obj_property name="ElementShortName">input_1_83[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_83[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_84" type="array">
+      <obj_property name="ElementShortName">input_1_84[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_84[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_85" type="array">
+      <obj_property name="ElementShortName">input_1_85[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_85[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_86" type="array">
+      <obj_property name="ElementShortName">input_1_86[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_86[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_87" type="array">
+      <obj_property name="ElementShortName">input_1_87[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_87[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_88" type="array">
+      <obj_property name="ElementShortName">input_1_88[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_88[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_89" type="array">
+      <obj_property name="ElementShortName">input_1_89[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_89[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_90" type="array">
+      <obj_property name="ElementShortName">input_1_90[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_90[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_91" type="array">
+      <obj_property name="ElementShortName">input_1_91[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_91[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_92" type="array">
+      <obj_property name="ElementShortName">input_1_92[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_92[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_93" type="array">
+      <obj_property name="ElementShortName">input_1_93[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_93[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_94" type="array">
+      <obj_property name="ElementShortName">input_1_94[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_94[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_95" type="array">
+      <obj_property name="ElementShortName">input_1_95[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_95[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_96" type="array">
+      <obj_property name="ElementShortName">input_1_96[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_96[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_97" type="array">
+      <obj_property name="ElementShortName">input_1_97[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_97[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_98" type="array">
+      <obj_property name="ElementShortName">input_1_98[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_98[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_99" type="array">
+      <obj_property name="ElementShortName">input_1_99[17:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_99[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1" type="array">
+      <obj_property name="ElementShortName">input_1[1799:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1[1799:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/input_1_ap_vld" type="logic">
+      <obj_property name="ElementShortName">input_1_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">input_1_ap_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/layer5_out_0" type="array">
+      <obj_property name="ElementShortName">layer5_out_0[23:0]</obj_property>
+      <obj_property name="ObjectShortName">layer5_out_0[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/layer5_out_1" type="array">
+      <obj_property name="ElementShortName">layer5_out_1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">layer5_out_1[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/layer5_out_0_ap_vld" type="logic">
+      <obj_property name="ElementShortName">layer5_out_0_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">layer5_out_0_ap_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myproject/layer5_out_1_ap_vld" type="logic">
+      <obj_property name="ElementShortName">layer5_out_1_ap_vld</obj_property>
+      <obj_property name="ObjectShortName">layer5_out_1_ap_vld</obj_property>
+   </wvobject>
+</wave_config>

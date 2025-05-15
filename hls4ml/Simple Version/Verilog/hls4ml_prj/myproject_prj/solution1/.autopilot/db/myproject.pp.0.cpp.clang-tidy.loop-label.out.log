@@ -1,0 +1,399 @@
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:25758:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:25758:7: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26732:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26732:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26746:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26746:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26760:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:26760:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:28377:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:28377:7: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:30394:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:30394:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:30407:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:30407:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51137:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    ^~~
+    VITIS_LOOP_265_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51137:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51147:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+    for (auto i = 0; i < SIZE; i++)
+    ^~~
+    VITIS_LOOP_275_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51147:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51158:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE; i++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51158:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51165:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_293_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51165:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51167:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_295_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51167:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51179:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51179:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51181:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_309_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51181:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51196:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_324_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51196:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51216:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_344_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51216:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51217:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < ncols; jj++) {
+        ^~~
+        VITIS_LOOP_345_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51217:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51232:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_360_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51232:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51239:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_367_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51239:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51548:5: warning: Added loop label VITIS_LOOP_135_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_135_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51548:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51549:9: warning: Added loop label VITIS_LOOP_136_2:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_136_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51549:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51570:5: warning: Added loop label VITIS_LOOP_157_3:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_157_3: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51570:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51571:9: warning: Added loop label VITIS_LOOP_158_4:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_158_4: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51571:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51689:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51689:2: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51701:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51701:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51715:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_57_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51715:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51742:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_84_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51742:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51772:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_114_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51772:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51809:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_151_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51809:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51820:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_162_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51820:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51853:5: warning: Added loop label VITIS_LOOP_195_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_195_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51853:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51867:5: warning: Added loop label VITIS_LOOP_209_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_209_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51867:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51901:5: warning: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_243_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51901:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51910:5: warning: Added loop label VITIS_LOOP_252_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_252_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51910:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51924:5: warning: Added loop label VITIS_LOOP_266_3:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_266_3: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51924:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51931:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51931:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51944:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51944:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51981:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_323_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51981:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51986:5: warning: Added loop label VITIS_LOOP_328_2:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_328_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51986:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51987:9: warning: Added loop label VITIS_LOOP_329_3:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+        ^~~
+        VITIS_LOOP_329_3: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:51987:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52004:5: warning: Added loop label VITIS_LOOP_346_4:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_346_4: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52004:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52017:5: warning: Added loop label VITIS_LOOP_359_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_359_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52017:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52025:5: warning: Added loop label VITIS_LOOP_367_2:   [xilinx-label-all-loops]
+    for (int i = 1; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_367_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52025:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52060:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_402_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52060:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52090:5: warning: Added loop label VITIS_LOOP_432_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_432_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52090:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52117:2: warning: Added loop label VITIS_LOOP_459_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_459_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52117:2: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52131:2: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_473_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52131:2: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52147:5: warning: Added loop label VITIS_LOOP_489_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_489_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52147:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52165:5: warning: Added loop label VITIS_LOOP_507_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_507_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52165:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52182:5: warning: Added loop label VITIS_LOOP_524_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_524_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52182:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52199:5: warning: Added loop label VITIS_LOOP_541_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_541_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52199:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52229:5: warning: Added loop label VITIS_LOOP_571_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_571_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52229:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52248:5: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_590_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52248:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52278:5: warning: Added loop label VITIS_LOOP_620_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_620_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52278:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52297:5: warning: Added loop label VITIS_LOOP_639_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_639_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52297:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52327:5: warning: Added loop label VITIS_LOOP_669_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_669_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52327:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52354:5: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_696_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52354:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52383:5: warning: Added loop label VITIS_LOOP_725_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_725_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52383:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52404:5: warning: Added loop label VITIS_LOOP_746_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_746_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52404:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52422:5: warning: Added loop label VITIS_LOOP_764_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_764_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52422:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52442:5: warning: Added loop label VITIS_LOOP_784_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_784_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52442:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52538:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_73_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52538:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52545:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_80_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52545:13: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52554:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_89_3: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52554:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52563:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+            for (int j = 0; j < pack_diff; j++) {
+            ^~~
+            VITIS_LOOP_98_4: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52563:13: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52567:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < res_T::size; k++) {
+                ^~~
+                VITIS_LOOP_102_5: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52567:17: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52578:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_113_6: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52578:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52582:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_117_7: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52582:13: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52606:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < n_dupl; j++) {
+        ^~~
+        VITIS_LOOP_141_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52606:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52610:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+            for (int k = 0; k < res_T::size; k++) {
+            ^~~
+            VITIS_LOOP_145_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52610:13: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52629:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < res_T::size; k++) {
+        ^~~
+        VITIS_LOOP_164_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52629:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52855:9: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_213_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52855:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52864:9: warning: Added loop label VITIS_LOOP_222_2:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_222_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52864:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52970:5: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_328_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52970:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52975:9: warning: Added loop label VITIS_LOOP_333_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_333_2: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52975:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52983:9: warning: Added loop label VITIS_LOOP_341_3:   [xilinx-label-all-loops]
+        for (int i = 1; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_341_3: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:52983:9: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53561:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53635:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53717:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53890:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+    for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
+    ^~~
+    VITIS_LOOP_14_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53890:5: note: FIX-IT applied suggested code changes
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53950:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+        for (int im = 0; im < CONFIG_T::n_out; im++) {
+        ^~~
+        VITIS_LOOP_74_1: 
+C:\Users\student\Documents\jromeo\FinalProject\hls4ml_prj\myproject_prj\solution1\.autopilot\db\myproject.pp.0.cpp:53950:9: note: FIX-IT applied suggested code changes

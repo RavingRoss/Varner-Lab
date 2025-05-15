@@ -1,0 +1,283 @@
+`timescale 1ns/1ps
+
+module tb_myproject;
+
+// Clock and reset
+reg ap_clk;
+reg ap_rst;
+reg ap_start;
+wire ap_done;
+wire ap_idle;
+wire ap_ready;
+    
+// Simulated Data
+reg [17:0] input_1_0;
+reg [17:0] input_1_1;
+reg [17:0] input_1_2;
+reg [17:0] input_1_3;
+reg [17:0] input_1_4;
+reg [17:0] input_1_5;
+reg [17:0] input_1_6;
+reg [17:0] input_1_7;
+reg [17:0] input_1_8;
+reg [17:0] input_1_9;
+reg [17:0] input_1_10;
+reg [17:0] input_1_11;
+reg [17:0] input_1_12;
+reg [17:0] input_1_13;
+reg [17:0] input_1_14;
+reg [17:0] input_1_15;
+reg [17:0] input_1_16;
+reg [17:0] input_1_17;
+reg [17:0] input_1_18;
+reg [17:0] input_1_19;
+reg [17:0] input_1_20;
+reg [17:0] input_1_21;
+reg [17:0] input_1_22;
+reg [17:0] input_1_23;
+reg [17:0] input_1_24;
+reg [17:0] input_1_25;
+reg [17:0] input_1_26;
+reg [17:0] input_1_27;
+reg [17:0] input_1_28;
+reg [17:0] input_1_29;
+reg [17:0] input_1_30;
+reg [17:0] input_1_31;
+reg [17:0] input_1_32;
+reg [17:0] input_1_33;
+reg [17:0] input_1_34;
+reg [17:0] input_1_35;
+reg [17:0] input_1_36;
+reg [17:0] input_1_37;
+reg [17:0] input_1_38;
+reg [17:0] input_1_39;
+reg [17:0] input_1_40;
+reg [17:0] input_1_41;
+reg [17:0] input_1_42;
+reg [17:0] input_1_43;
+reg [17:0] input_1_44;
+reg [17:0] input_1_45;
+reg [17:0] input_1_46;
+reg [17:0] input_1_47;
+reg [17:0] input_1_48;
+reg [17:0] input_1_49;
+reg [17:0] input_1_50;
+reg [17:0] input_1_51;
+reg [17:0] input_1_52;
+reg [17:0] input_1_53;
+reg [17:0] input_1_54;
+reg [17:0] input_1_55;
+reg [17:0] input_1_56;
+reg [17:0] input_1_57;
+reg [17:0] input_1_58;
+reg [17:0] input_1_59;
+reg [17:0] input_1_60;
+reg [17:0] input_1_61;
+reg [17:0] input_1_62;
+reg [17:0] input_1_63;
+reg [17:0] input_1_64;
+reg [17:0] input_1_65;
+reg [17:0] input_1_66;
+reg [17:0] input_1_67;
+reg [17:0] input_1_68;
+reg [17:0] input_1_69;
+reg [17:0] input_1_70;
+reg [17:0] input_1_71;
+reg [17:0] input_1_72;
+reg [17:0] input_1_73;
+reg [17:0] input_1_74;
+reg [17:0] input_1_75;
+reg [17:0] input_1_76;
+reg [17:0] input_1_77;
+reg [17:0] input_1_78;
+reg [17:0] input_1_79;
+reg [17:0] input_1_80;
+reg [17:0] input_1_81;
+reg [17:0] input_1_82;
+reg [17:0] input_1_83;
+reg [17:0] input_1_84;
+reg [17:0] input_1_85;
+reg [17:0] input_1_86;
+reg [17:0] input_1_87;
+reg [17:0] input_1_88;
+reg [17:0] input_1_89;
+reg [17:0] input_1_90;
+reg [17:0] input_1_91;
+reg [17:0] input_1_92;
+reg [17:0] input_1_93;
+reg [17:0] input_1_94;
+reg [17:0] input_1_95;
+reg [17:0] input_1_96;
+reg [17:0] input_1_97;
+reg [17:0] input_1_98;
+reg [17:0] input_1_99;
+
+// Input signals
+reg [1799:0] input_1;
+reg input_1_ap_vld;
+
+// Output signals
+wire [23:0] layer5_out_0;
+wire [23:0] layer5_out_1;
+wire layer5_out_0_ap_vld;
+wire layer5_out_1_ap_vld;
+
+// Clock generation
+initial ap_clk = 0;
+always #15 ap_clk = ~ap_clk;  // 100 MHz clock
+
+// Instantiate DUT
+myproject_0 uut (
+  .ap_clk(ap_clk),
+  .ap_rst(ap_rst),
+  .ap_start(ap_start),
+  .ap_done(ap_done),
+  .ap_idle(ap_idle),
+  .ap_ready(ap_ready),
+    
+  .input_1(input_1),
+  .input_1_ap_vld(input_1_ap_vld),
+    
+  .layer5_out_0(layer5_out_0),
+  .layer5_out_1(layer5_out_1),
+  .layer5_out_0_ap_vld(layer5_out_0_ap_vld),
+  .layer5_out_1_ap_vld(layer5_out_1_ap_vld)
+);
+
+initial begin
+    // Initialization
+    ap_rst = 1;
+    ap_start = 0;
+    input_1 = 1800'd0;
+    input_1_ap_vld = 0;
+    
+    repeat (5) @(posedge ap_clk);
+    ap_rst = 0; // Deassert reset
+    // Wait a few clocks after reset
+    
+    repeat (3) @(posedge ap_clk);
+    
+    // Apply stimulus
+    @(posedge ap_clk);
+    #10 input_1_0 = 18'b000001101010100000;
+    #10 input_1_1 = 18'b000001011000000000;
+    #10 input_1_2 = 18'b000001101011100000;
+    #10 input_1_3 = 18'b000001101110010000;
+    #10 input_1_4 = 18'b000001011100010000;
+    #10 input_1_5 = 18'b000001100010000000;
+    #10 input_1_6 = 18'b000001100001110000;
+    #10 input_1_7 = 18'b000001100111110000;
+    #10 input_1_8 = 18'b000001101010110000;
+    #10 input_1_9 = 18'b000001101011000000;
+    #10 input_1_10 = 18'b000001101010100000;
+    #10 input_1_11 = 18'b000001011110100000;
+    #10 input_1_12 = 18'b000001100111000000;
+    #10 input_1_13 = 18'b000001100010000000;
+    #10 input_1_14 = 18'b000001101010100000;
+    #10 input_1_15 = 18'b000001101011010000;
+    #10 input_1_16 = 18'b000001011101000000;
+    #10 input_1_17 = 18'b000001100100110000;
+    #10 input_1_18 = 18'b000001101010110000;
+    #10 input_1_19 = 18'b000001101010010000;
+    #10 input_1_20 = 18'b000001011010000000;
+    #10 input_1_21 = 18'b000001010110010000;
+    #10 input_1_22 = 18'b000001101000100000;
+    #10 input_1_23 = 18'b000001100011010000;
+    #10 input_1_24 = 18'b000001011011010000;
+    #10 input_1_25 = 18'b000001101001010000;
+    #10 input_1_26 = 18'b000001010110110000;
+    #10 input_1_27 = 18'b000001101110000000;
+    #10 input_1_28 = 18'b000001010110100000;
+    #10 input_1_29 = 18'b000001011111110000;
+    #10 input_1_30 = 18'b000001100010100000;
+    #10 input_1_31 = 18'b000001101101100000;
+    #10 input_1_32 = 18'b000001101000110000;
+    #10 input_1_33 = 18'b000001101010100000;
+    #10 input_1_34 = 18'b000001100100100000;
+    #10 input_1_35 = 18'b000001011110110000;
+    #10 input_1_36 = 18'b000001101110010000;
+    #10 input_1_37 = 18'b000001101010000000;
+    #10 input_1_38 = 18'b000001011001110000;
+    #10 input_1_39 = 18'b000001101001010000;
+    #10 input_1_40 = 18'b000001100111010000;
+    #10 input_1_41 = 18'b000001101001010000;
+    #10 input_1_42 = 18'b000001101110000000;
+    #10 input_1_43 = 18'b000001011011000000;
+    #10 input_1_44 = 18'b000001011110010000;
+    #10 input_1_45 = 18'b000001101011010000;
+    #10 input_1_46 = 18'b000001110011100000;
+    #10 input_1_47 = 18'b000001111111000000;
+    #10 input_1_48 = 18'b000010001100000000;
+    #10 input_1_49 = 18'b000010011000000000;
+    #10 input_1_50 = 18'b000010100110100000;
+    #10 input_1_51 = 18'b000010101111010000;
+    #10 input_1_52 = 18'b000010101001010000;
+    #10 input_1_53 = 18'b000010010010100000;
+    #10 input_1_54 = 18'b000001110101100000;
+    #10 input_1_55 = 18'b000001101111100000;
+    #10 input_1_56 = 18'b000001011111000000;
+    #10 input_1_57 = 18'b000001011111100000;
+    #10 input_1_58 = 18'b000001100010110000;
+    #10 input_1_59 = 18'b000001101000100000;
+    #10 input_1_60 = 18'b000001011000010000;
+    #10 input_1_61 = 18'b000001011000110000;
+    #10 input_1_62 = 18'b000001011110000000;
+    #10 input_1_63 = 18'b000001010111100000;
+    #10 input_1_64 = 18'b000001100100010000;
+    #10 input_1_65 = 18'b000001011101100000;
+    #10 input_1_66 = 18'b000001100010010000;
+    #10 input_1_67 = 18'b000001101001010000;
+    #10 input_1_68 = 18'b000001010111110000;
+    #10 input_1_69 = 18'b000001011000110000;
+    #10 input_1_70 = 18'b000001100000000000;
+    #10 input_1_71 = 18'b000001011011010000;
+    #10 input_1_72 = 18'b000001011101110000;
+    #10 input_1_73 = 18'b000001101000010000;
+    #10 input_1_74 = 18'b000001010111000000;
+    #10 input_1_75 = 18'b000001011000110000;
+    #10 input_1_76 = 18'b000001010111100000;
+    #10 input_1_77 = 18'b000001100111000000;
+    #10 input_1_78 = 18'b000001100101010000;
+    #10 input_1_79 = 18'b000001100011100000;
+    #10 input_1_80 = 18'b000001101001110000;
+    #10 input_1_81 = 18'b000001100000000000;
+    #10 input_1_82 = 18'b000001011111000000;
+    #10 input_1_83 = 18'b000001101010110000;
+    #10 input_1_84 = 18'b000001100111010000;
+    #10 input_1_85 = 18'b000001011001110000;
+    #10 input_1_86 = 18'b000001100101110000;
+    #10 input_1_87 = 18'b000001011101000000;
+    #10 input_1_88 = 18'b000001011111110000;
+    #10 input_1_89 = 18'b000001100011000000;
+    #10 input_1_90 = 18'b000001011000100000;
+    #10 input_1_91 = 18'b000001010111100000;
+    #10 input_1_92 = 18'b000001100111010000;
+    #10 input_1_93 = 18'b000001010110100000;
+    #10 input_1_94 = 18'b000001101001000000;
+    #10 input_1_95 = 18'b000001101110000000;
+    #10 input_1_96 = 18'b000001101000110000;
+    #10 input_1_97 = 18'b000001011010000000;
+    #10 input_1_98 = 18'b000001101101100000;
+    #10 input_1_99 = 18'b000001101110100000;
+
+    input_1 = {input_1_99, input_1_98, input_1_97, input_1_96, input_1_95, input_1_94, input_1_93, input_1_92, input_1_91, input_1_90, input_1_89, input_1_88, input_1_87, input_1_86, input_1_85, input_1_84, 
+        input_1_83, input_1_82, input_1_81, input_1_80, input_1_79, input_1_78, input_1_77, input_1_76, input_1_75, input_1_74, input_1_73, input_1_72, input_1_71, input_1_70, input_1_69, input_1_68, input_1_67, 
+        input_1_66, input_1_65, input_1_64, input_1_63, input_1_62, input_1_61, input_1_60, input_1_59, input_1_58, input_1_57, input_1_56, input_1_55, input_1_54, input_1_53, input_1_52, input_1_51, input_1_50,
+        input_1_49, input_1_48, input_1_47, input_1_46, input_1_45, input_1_44, input_1_43, input_1_42, input_1_41, input_1_40, input_1_39, input_1_38, input_1_37, input_1_36, input_1_35, input_1_34, input_1_33, 
+        input_1_32, input_1_31, input_1_30, input_1_29, input_1_28, input_1_27, input_1_26, input_1_25, input_1_24, input_1_23, input_1_22, input_1_21, input_1_20, input_1_19, input_1_18, input_1_17, input_1_16, 
+        input_1_15, input_1_14, input_1_13, input_1_12, input_1_11, input_1_10, input_1_9, input_1_8, input_1_7, input_1_6, input_1_5, input_1_4, input_1_3, input_1_2, input_1_1, input_1_0};
+
+    input_1_ap_vld = 1;
+    ap_start = 1;
+    repeat (2) @(posedge ap_clk);
+    input_1_ap_vld = 0;
+    // Wait for done signal
+    wait (ap_done == 1);
+    $display("Output: Mean = %h, Sigma = %h", layer5_out_0, layer5_out_1);
+    ap_start = 0;
+    
+    #20;
+    $finish;
+end
+
+endmodule

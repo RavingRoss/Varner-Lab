@@ -1,0 +1,58 @@
+Backend: Vivado
+ClockPeriod: 15
+ClockUncertainty: 12.5%
+HLSConfig:
+  LayerName:
+    dense:
+      Precision:
+        bias: ap_fixed<22,12>
+        weight: ap_fixed<30,14>
+      ReuseFactor: 50
+      Trace: true
+    dense_1:
+      Precision:
+        bias: ap_fixed<10,4>
+        weight: ap_fixed<30,18>
+      ReuseFactor: 64
+      Trace: true
+    dense_1_linear:
+      Precision:
+        result: ap_fixed<24,12>
+      ReuseFactor: 32
+      Trace: true
+    dense_relu:
+      Precision:
+        result: ap_fixed<24,12>
+      ReuseFactor: 32
+      Trace: true
+    input_1:
+      Precision:
+        result: auto
+      ReuseFactor: 64
+      Trace: true
+  Model:
+    BramFactor: 1000000000
+    Precision: ap_fixed<18,14>
+    ReuseFactor: 32
+    Strategy: Resource
+    TraceOutput: false
+IOType: io_parallel
+InputData: Input.dat
+InputShapes:
+  input_1:
+  - 100
+KerasModel: !keras_model 'hls4ml_prj/keras_model.keras'
+OutputDir: hls4ml_prj
+OutputPredictions: Output.dat
+OutputShapes:
+  layer5_out:
+  - 2
+Part: xc7a200tsbg484-1
+ProjectName: myproject
+Stamp: e7f0a499
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  TBOutputStream: both
+  WriteTar: false
+  WriteWeightsTxt: true

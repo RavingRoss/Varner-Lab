@@ -1,0 +1,85 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "5 1 4 3",
+    "file": "myproject.cpp",
+    "fileloc": 7,
+    "instructions": 146,
+    "name": "myproject",
+    "total_instructions": 2915
+  },
+  "1": {
+    "basicblocks": 193,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 39,
+    "instructions": 706,
+    "loads": {
+      "L": 64
+    },
+    "name": "relu<ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, relu_config3>",
+    "stores": {
+      "L": 128
+    },
+    "total_instructions": 706
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_mult.h",
+    "fileloc": 110,
+    "instructions": 2,
+    "name": "cast<ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 2
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "nnet_activation.h",
+    "fileloc": 28,
+    "instructions": 14,
+    "loads": {
+      "L": 2
+    },
+    "name": "linear<ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, linear_config5>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 14
+  },
+  "4": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 13,
+    "instructions": 108,
+    "loads": {
+      "G": 1,
+      "L": 64
+    },
+    "name": "dense_resource_rf_leq_nin<ap_fixed<24, 12, AP_TRN, AP_WRAP, 0>, ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, config4>",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 108
+  },
+  "5": {
+    "basicblocks": 4,
+    "calls": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2",
+    "file": "nnet_dense_resource.h",
+    "fileloc": 13,
+    "instructions": 1813,
+    "loads": {
+      "G": 1,
+      "L": 65
+    },
+    "name": "dense_resource_rf_leq_nin<ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, ap_fixed<18, 14, AP_TRN, AP_WRAP, 0>, config2>",
+    "stores": {
+      "L": 64
+    },
+    "total_instructions": 1941
+  }
+}
