@@ -1,4 +1,4 @@
-24028070572757097
+24033586313717413
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96803,6 +96803,13 @@ BGA-4_2x2_0.8x0.8mm-0.4mm-pitch
 4
 4
 kicad-mza
+Belle2-LOGO
+
+
+0
+0
+0
+kicad-mza
 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor handsolder
@@ -97027,14 +97034,14 @@ Through hole angled pin header THT 1x02 2.54mm single row
 2
 2
 kicad-mza
-PinHeader_1x02_P3.000mm_Vertical
+PinHeader_1x02_P3.00mm_Vertical
 Through hole straight pin header, 1x02, 2.00mm pitch, single row
 Through hole pin header THT 1x02 2.00mm single row
 0
 2
 2
 kicad-mza
-PinHeader_1x02_P3.00mm_Vertical
+PinHeader_1x02_P3.000mm_Vertical
 Through hole straight pin header, 1x02, 2.00mm pitch, single row
 Through hole pin header THT 1x02 2.00mm single row
 0
@@ -97460,6 +97467,13 @@ slac-single-sided-silicon-strip-sensor
 0
 133
 133
+kicad-mza
+uhm-logo
+
+
+0
+0
+0
 kicad-mza
 ultravolt-xs
 

@@ -473,7 +473,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "SVG/",
+      "plot": "Gerber1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

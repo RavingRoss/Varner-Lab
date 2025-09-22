@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.5"
     },
-    "CreationDate": "2024-11-25T13:54:07-10:00"
+    "CreationDate": "2025-09-21T17:17:36-10:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -63,6 +63,16 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "SiPMT.revA-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SiPMT.revA-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "SiPMT.revA-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
@@ -93,8 +103,38 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "SiPMT.revA-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SiPMT.revA-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SiPMT.revA-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SiPMT.revA-User_Eco2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "SiPMT.revA-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SiPMT.revA-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "SiPMT.revA-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
