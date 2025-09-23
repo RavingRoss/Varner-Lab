@@ -1,16 +1,16 @@
 # Current Projects
-## SiPMT revA:
+## SiPMT revA/B:
 Includes work on a PCB upgrade to give inputs for a LASER using pogo-pins to activate the given 8 CH ASIC IC chip. 
 
 ---
 
 ## Waveforms:
-Using data taken from the TOP boardstack in the lab, the waveforms are evenly distributed and plotted.
+Performed testing using dummy data taken from the TOP boardstack in the lab, the waveforms are evenly distributed and plotted.
 
 ---
 
-## TOP-XRM:
-Data taken from the TOP boardstack in Varner lab, testing the 64 SiPM PCB.    
+## TOP-BS:
+Data taken from the TOP boardstack in Varner lab, testing the 64 SiPM PCB using PCIE40 and KLM VME at UH. Includes advanced version of waveforms parsing script and BS cooling plate upgrades. 
 
 ---
 
