@@ -1,5 +1,7 @@
+from random import sample
 import uproot
 import matplotlib.pyplot as plt
+import seaborn as sns
 import numpy as np
 import pandas as pd
 import hashlib
@@ -7,45 +9,68 @@ import sys
 import os
 from datetime import datetime
 
-class Waveforms :
 
-    def __init__ (self, filename="test5.root") :
+class Waveforms:
+    def __init__(self, filename, test, adc, N):
         """
         Initialize the class.
-        Input: filename (str) - The name of the ROOT file to open.
+        Input:
+            - filename (str) -- The name of the ROOT file to open.
+            - test (int) -- The test number.
+            - adc (int) -- The max ADC counts.
+            - N (int) -- The number of events to plot.
         Dependencies: uproot, matplotlib.pyplot, numpy, pandas, hashlib, sys, os, datetime
         Variables: self.file, self.events, self.TOPwv, self.TOPrd, self.propCycle, self.colors, self.N,
-                   self.eventNumber, self.carriers, self.asics, and self.channels,
+                   self.lines, self.labels, self.eventNumber, self.carriers, self.asics, and self.channels,
                    all used for plotting waveforms and information on asic, carrier, and channel.
         """
-        self.file = uproot.open(filename) # Open the ROOT file
-        self.events = self.file['tree'][0].arrays(library="pd") # Get the data from the TTree including events
+        self.testNumber = test
+        self.ADC_counts = adc
+        self.file = uproot.open(filename)  # Open the ROOT file
+        self.events = self.file["tree"][0].arrays(
+            library="pd"
+        )  # Get the data from the TTree including events
         print(self.events.columns)
-        self.TOPwv = self.file['tree'][8].arrays(library="pd") # Get the data from the TTree including waveforms
+        self.TOPwv = self.file["tree"][8].arrays(
+            library="pd"
+        )  # Get the data from the TTree including waveforms
         print(self.TOPwv.columns)
-        self.TOPrd = self.file['tree'][5].arrays(library="pd") # Get the data from the TTree including information on asic, carrier, and channel
+        self.TOPrd = self.file[
+            "tree"
+        ][
+            5
+        ].arrays(
+            library="pd"
+        )  # Get the data from the TTree including information on asic, carrier, and channel
         print(self.TOPrd.columns)
-        self.propCycle = plt.rcParams['axes.prop_cycle']
-        self.colors = self.propCycle.by_key()['color'] # Get the colors from the propCycle
-        self.N = 1000 # Number of events to plot
+        self.lines = []  # Lines array for legend customization
+        self.labels = []  # Labels array for legend customization
+        self.N = N  # Number of events to plot
         # Get the first N unique event numbers
-        unique_events = list(set(self.events.m_event))[:self.N]
+        unique_events = list(set(self.events.m_event))[: self.N]
         self.eventNumber = unique_events
-        self.carriers = [0, 1, 2, 3] # List of carriers, there are only 4 on each boardstack
-        self.asics = [0, 1, 2, 3] # List of asics, there are only 4 on each carrier
-        self.channels = 8 # Number of channels per asic
+        self.carriers = [
+            0,
+            1,
+            2,
+            3,
+        ]  # List of carriers, there are only 4 on each boardstack
+        self.asics = [0, 1, 2, 3]  # List of asics, there are only 4 on each carrier
+        self.channels = 8  # Number of channels per asic
 
-    def gettingWaveforms(self) : # Function to get the waveforms
+    def gettingWaveforms(self):  # Function to get the waveforms
         """
         This function retrieves the waveforms from the ROOT file, plots the highest amplitude waveform for each channel,
         stores them in a dictionary, and saves a log file for debugging purposes.
         """
         # Set up logging to file
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        log_filename = f"LOG/waveform_analysis_log_{timestamp}.txt"
+        log_filename = (
+            f"LOG/test{self.testNumber}_waveform_analysis_log_{timestamp}.txt"
+        )
 
         # Create a custom print function that writes to both console and file
-        log_file = open(log_filename, 'w')
+        log_file = open(log_filename, "w")
         original_stdout = sys.stdout
 
         class Logger:
@@ -66,15 +91,15 @@ class Waveforms :
 
         print(f"Starting waveform analysis at {datetime.now()}")
         print(f"Logging output to: {log_filename}")
-        print("="*50)
+        print("=" * 50)
 
-        plt.close('all') # Rid of any leftovers
-        fig, ax = plt.subplots(figsize=(30,15))
+        plt.close("all")  # Rid of any leftovers
+        fig, ax = plt.subplots(figsize=(30, 15))
 
         # Loop through all rows up to self.N to get data from the selected events
         count = 0
         wvHashes = set()
-        all_channel_hits = [] # Storing the hits per chanel for CSV
+        all_channel_hits = []  # Storing the hits per chanel for CSV
 
         for i in range(len(self.events)):
             if count >= self.N:
@@ -99,9 +124,9 @@ class Waveforms :
                 try:
                     val = data.get(key, [])
                     print(f"{key}: {val} (type: {type(val)})")
-                    if hasattr(val, 'tolist'):
+                    if hasattr(val, "tolist"):
                         return val.tolist()
-                    elif hasattr(val, '__iter__'):
+                    elif hasattr(val, "__iter__"):
                         return list(val)
                     else:
                         return [val]
@@ -109,38 +134,73 @@ class Waveforms :
                     print(f"Failed to extract {key}: {e}")
                     return []
 
-            carriers = safe_extract_array(hardware_data, 'TOPRawDigits.m_carrier')
-            asics = safe_extract_array(hardware_data, 'TOPRawDigits.m_asic')
-            channels = safe_extract_array(hardware_data, 'TOPRawDigits.m_channel')
+            carriers = safe_extract_array(hardware_data, "TOPRawDigits.m_carrier")
+            asics = safe_extract_array(hardware_data, "TOPRawDigits.m_asic")
+            channels = safe_extract_array(hardware_data, "TOPRawDigits.m_channel")
+
+            # Get chosen asics and carriers <---- Comment out if using all asics and carriers
+            # Filtering asics and carriers to return only valid ones
+            # COMMENT IF WANT TO USE ALL ASICS AND CARRIERS
+            asics = [a for a in asics if a in (2, 3)]
+            carriers = [c for c in carriers if c in (2, 3)]
+            print("     Keeping only chosen asics and carriers and filtering unused.")
+
+            if asics and carriers is not None:
+                if len(asics) == 0 or len(carriers) == 0:
+                    print("          No valid asics or carriers found")
+                    continue
+            else:
+                print(
+                    "          Skipping waveform due to missing asic and/or carrier configuration"
+                )
+                continue
 
             # Get waveform data arrays
-            waveform_column = 'TOPRawWaveforms.m_data'
+            waveform_column = "TOPRawWaveforms.m_data"
             if waveform_column in self.TOPwv.columns:
                 waveform_raw = waveform_data[waveform_column]
             else:
-                waveform_raw = waveform_data.get('m_data', waveform_data.get('waveform', []))
+                waveform_raw = waveform_data.get(
+                    "m_data", waveform_data.get("waveform", [])
+                )
 
             print(f"Waveform raw type: {type(waveform_raw)}")
-            print(f"Waveform raw shape: {getattr(waveform_raw, 'shape', 'No shape attr')}")
-            print(f"Waveform raw length: {len(waveform_raw) if hasattr(waveform_raw, '__len__') else 'No length'}")
+            print(
+                f"Waveform raw shape: {getattr(waveform_raw, 'shape', 'No shape attr')}"
+            )
+            print(
+                f"Waveform raw length: {len(waveform_raw) if hasattr(waveform_raw, '__len__') else 'No length'}"
+            )
 
-            if hasattr(waveform_raw, '__getitem__'):
+            if hasattr(waveform_raw, "__getitem__"):
                 try:
-                    print(f"First element of raw waveform: shape/length = {getattr(waveform_raw[0], 'shape', len(waveform_raw[0]) if hasattr(waveform_raw[0], '__len__') else 'N/A')}")
-                    print(f"Second element of raw waveform: shape/length = {getattr(waveform_raw[1], 'shape', len(waveform_raw[1]) if hasattr(waveform_raw[1], '__len__') else 'N/A')}")
+                    print(
+                        f"First element of raw waveform: shape/length = {getattr(waveform_raw[0], 'shape', len(waveform_raw[0]) if hasattr(waveform_raw[0], '__len__') else 'N/A')}"
+                    )
+                    print(
+                        f"Second element of raw waveform: shape/length = {getattr(waveform_raw[1], 'shape', len(waveform_raw[1]) if hasattr(waveform_raw[1], '__len__') else 'N/A')}"
+                    )
                 except:
-                    print("    MOVING ON, Could not access first/second element of raw waveform")
+                    print(
+                        "    MOVING ON, Could not access first/second element of raw waveform"
+                    )
                     continue
-            print(f"Number of hardware entries: {len(carriers)} carriers, {len(asics)} asics, {len(channels)} channels")
+            print(
+                f"Number of hardware entries: {len(carriers)} carriers, {len(asics)} asics, {len(channels)} channels"
+            )
 
             # Convert waveforms - handle 2x32 structure properly
             try:
-                if hasattr(waveform_raw, 'tolist'):
+                if hasattr(waveform_raw, "tolist"):
                     # Convert awkward array to nested list structure
                     raw_list = waveform_raw.tolist()
-                    print(f"Raw list structure: {type(raw_list)}, length: {len(raw_list) if hasattr(raw_list, '__len__') else 'N/A'}")
-                    if hasattr(raw_list, '__len__') and len(raw_list) > 0:
-                        print(f"First element: {type(raw_list[0])}, length: {len(raw_list[0]) if hasattr(raw_list[0], '__len__') else 'N/A'}")
+                    print(
+                        f"Raw list structure: {type(raw_list)}, length: {len(raw_list) if hasattr(raw_list, '__len__') else 'N/A'}"
+                    )
+                    if hasattr(raw_list, "__len__") and len(raw_list) > 0:
+                        print(
+                            f"First element: {type(raw_list[0])}, length: {len(raw_list[0]) if hasattr(raw_list[0], '__len__') else 'N/A'}"
+                        )
 
                     # raw_list[0] and raw_list[1] are the two halves of all waveforms
                     # Need to concatenate them to get full 64-sample waveforms
@@ -150,14 +210,20 @@ class Waveforms :
                         second_half = raw_list[1]
                         full_waveform = np.concatenate([first_half, second_half])
                         waveforms = [full_waveform]
-                        print(f"    Concatenated waveform: {len(first_half)} + {len(second_half)} = {len(full_waveform)} samples")
+                        print(
+                            f"    Concatenated waveform: {len(first_half)} + {len(second_half)} = {len(full_waveform)} samples"
+                        )
                     else:
                         # Only one part available
                         waveforms = [raw_list[0]] if len(raw_list) > 0 else []
-                        print(f"    Single waveform part: {len(raw_list[0]) if len(raw_list) > 0 else 0} samples")
+                        print(
+                            f"    Single waveform part: {len(raw_list[0]) if len(raw_list) > 0 else 0} samples"
+                        )
                 else:
                     waveforms = [waveform_raw]
-                    print(f"Direct waveform assignment: {len(waveform_raw) if hasattr(waveform_raw, '__len__') else 'scalar'} samples")
+                    print(
+                        f"Direct waveform assignment: {len(waveform_raw) if hasattr(waveform_raw, '__len__') else 'scalar'} samples"
+                    )
 
             except Exception as e:
                 print(f"Waveform conversion failed: {e}")
@@ -167,7 +233,7 @@ class Waveforms :
             num_channels = min(len(carriers), len(asics), len(channels), len(waveforms))
             print(f"Processing {num_channels} channels in this row")
 
-            channel_hits = {} # Disctionary for the current event
+            channel_hits = {}  # Dictionary for the current event
 
             for ch_idx in range(num_channels):
                 carrier_val = int(carriers[ch_idx])
@@ -175,26 +241,40 @@ class Waveforms :
                 channel_val = int(channels[ch_idx])
                 waveform = waveforms[ch_idx]
 
-                print(f"Channel {ch_idx}: carrier={carrier_val}, asic={asic_val}, channel={channel_val}")
+                print(
+                    f"Channel {ch_idx}: carrier={carrier_val}, asic={asic_val}, channel={channel_val}"
+                )
 
                 # Skip if this combination doesn't match what we want to plot
-                if carrier_val not in self.carriers or asic_val not in self.asics or channel_val >= self.channels:
+                if (
+                    carrier_val not in self.carriers
+                    or asic_val not in self.asics
+                    or channel_val >= self.channels
+                ):
                     continue
 
                 # Waveform should now be a single concatenated list of 64 samples
                 y = waveform
                 print(f"    Final waveform: {len(y)} samples")
 
-                maxADC = 50 # Change if want to see more or less waveforms, arbituary value
+                maxADC = (
+                    self.ADC_counts  # Change if want to see more or less waveforms, arbituary value
+                )
 
-                if len(y) == 0 or np.max(y) < maxADC:  # Cut channels without peaks over 50 ADC counts
-                    print(f"    Skipping channel {carrier_val}-{asic_val}-{channel_val} due to low peak (max={np.max(y) if len(y) > 0 else 0:.1f})")
+                if (
+                    len(y) == 0 or np.max(y) < maxADC
+                ):  # Cut channels without peaks over set ADC counts
+                    print(
+                        f"    Skipping channel {carrier_val}-{asic_val}-{channel_val} due to low peak (max={np.max(y) if len(y) > 0 else 0:.1f})"
+                    )
                     continue
 
                 # One event was massive compared to the others, uncomment if want to ignore it
-                # if ev == 45 :
-                #     print(f"    Skipping channel {carrier_val}-{asic_val}-{channel_val} due to eventNumber == 45")
-                #     continue
+                if np.max(y) > 500:
+                    print(
+                        f"    Skipping channel {carrier_val}-{asic_val}-{channel_val} due to eventNumber == 45"
+                    )
+                    continue
 
                 # Create simple x-axis starting from 0
                 sampleNumber = len(y)
@@ -206,36 +286,46 @@ class Waveforms :
                 max_amplitude = np.max(y)
 
                 # Keep only the highest amplitude hit per channel for this event
-                if channel_id not in channel_hits or max_amplitude > channel_hits[channel_id]['max_amp']:
+                if (
+                    channel_id not in channel_hits
+                    or max_amplitude > channel_hits[channel_id]["max_amp"]
+                ):
                     channel_hits[channel_id] = {
-                        'x': x.copy(),
-                        'y': y.copy(),
-                        'carrier': carrier_val,
-                        'asic': asic_val,
-                        'channel': channel_val,
-                        'max_amp': max_amplitude,
-                        'event' : ev,
-                        'row' : i
+                        "x": x.copy(),
+                        "y": y.copy(),
+                        "carrier": carrier_val,
+                        "asic": asic_val,
+                        "channel": channel_val,
+                        "max_amp": max_amplitude,
+                        "event": ev,
+                        "row": i,
                     }
-                    print(f"    New best hit for channel {carrier_val}-{asic_val}-{channel_val}: max={max_amplitude:.1f}")
+                    print(
+                        f"    New best hit for channel {carrier_val}-{asic_val}-{channel_val}: max={max_amplitude:.1f}"
+                    )
                 else:
-                    print(f"    Skipping lower amplitude hit for channel {carrier_val}-{asic_val}-{channel_val}: max={max_amplitude:.1f} < {channel_hits[channel_id]['max_amp']:.1f}")
+                    print(
+                        f"    Skipping lower amplitude hit for channel {carrier_val}-{asic_val}-{channel_val}: max={max_amplitude:.1f} < {channel_hits[channel_id]['max_amp']:.1f}"
+                    )
 
             # Second pass: plot the best hit from each channel in this event
             for channel_id, hit_data in channel_hits.items():
                 if count >= self.N:
                     break
 
-                x = hit_data['x']
-                y = hit_data['y']
-                carrier_val = hit_data['carrier']
-                asic_val = hit_data['asic']
-                channel_val = hit_data['channel']
+                x = hit_data["x"]
+                y = hit_data["y"]
+                carrier_val = hit_data["carrier"]
+                asic_val = hit_data["asic"]
+                channel_val = hit_data["channel"]
 
                 # Add minimal vertical separation between channels
-                seq_ch = carrier_val*32 + asic_val*8 + channel_val
-                threshold = 50  # Arbituary threshold to space channels
-                y_offset = count*threshold  # Use count instead of seq_ch for consistent spacing
+                seq_ch = carrier_val * 32 + asic_val * 8 + channel_val
+                threshold = 200  # 20  # Arbituary threshold to space channels (increase if using count with fewer channels)
+                y_offset = (
+                    count
+                    * threshold  # Change seq_ch to count if have very few channels w hits
+                )  # Use count instead of seq_ch for consistent spacing
                 y = np.array(y) + y_offset
 
                 # Create a hash of the combined x,y data to delete repeated waveforms
@@ -244,33 +334,58 @@ class Waveforms :
                 combinedHash = f"{xHash}_{yHash}"
 
                 if combinedHash in wvHashes:
-                    print('Skipping repeating waveform')
+                    print("Skipping repeating waveform")
                     continue
                 else:
                     wvHashes.add(combinedHash)
                     count += 1
 
                     # Store data for CSV export
-                    all_channel_hits.append({
-                        'waveform_number': count,
-                        'event': hit_data['event'],
-                        'row': hit_data['row'],
-                        'carrier': carrier_val,
-                        'asic': asic_val,
-                        'channel': channel_val,
-                        'seq_ch': seq_ch,
-                        'max_amplitude': hit_data['max_amp'],
-                        'Waveform-X': x,
-                        'Waveform-Y': y,
-                        'Waveform-XY': np.column_stack((x, y))
-                    })
+                    all_channel_hits.append(
+                        {
+                            "waveform_number": count,
+                            "event": hit_data["event"],
+                            "row": hit_data["row"],
+                            "carrier": carrier_val,
+                            "asic": asic_val,
+                            "channel": channel_val,
+                            "seq_ch": seq_ch,
+                            "max_amplitude": hit_data["max_amp"],
+                            "Waveform-X": x,
+                            "Waveform-Y": y,
+                            "Waveform-XY": np.column_stack((x, y)),
+                        }
+                    )
+
+                    # Converting sample number to a rate
+                    num_samples = len(x)
+                    sample_rate = 2000  # 2000 Hz sampling rate
+                    period = 1 / sample_rate
+
+                    time = x * period  # in seconds
 
                     # Creating label
-                    label = f'E{hit_data['event']}: c{carrier_val} a{asic_val} ch{channel_val} ({seq_ch})'
-
+                    label = f"E{hit_data['event']}: c{carrier_val} a{asic_val} ch{channel_val} ({seq_ch})"
+                    palette = sns.color_palette("hls", 128)  # Since 128 channels
+                    # Creating a separation between colors to have a larger shade difference
+                    channel_colors = [palette[(i * 13) % 128] for i in range(128)]
+                    color = channel_colors[seq_ch]
                     try:
-                        ax.plot(x, y, linestyle='-', linewidth=2, color=self.colors[count % 10], label=label)
-                        print(f"Plotted waveform {count}: event={hit_data['event']}, hw={carrier_val}-{asic_val}-{channel_val}, max_amp={hit_data['max_amp']:.1f}")
+                        (line,) = ax.plot(
+                            time,
+                            y,
+                            linestyle="-",
+                            linewidth=2,
+                            color=color,
+                            label=label,
+                        )
+
+                        self.lines.append(line)
+                        self.labels.append(label)
+
+                        print(
+                            f"Plotted waveform {count}: event={hit_data['event']}, hw={carrier_val}-{asic_val}-{channel_val}, max_amp={hit_data['max_amp']:.1f}"
+                        )
 
                     except Exception as e:
                         print(f"Error plotting waveform: {e}")
@@ -284,16 +399,32 @@ class Waveforms :
         # Save channel hits as CSV
         if all_channel_hits:
             df_channel_hits = pd.DataFrame(all_channel_hits)
-            df_channel_hits.to_csv(f"CSV/channel_hits_{maxADC}ADC.csv", index=False)
-            print(f"Saved {len(all_channel_hits)} channel hits to channel_hits_{maxADC}ADC.csv")
+            df_channel_hits.to_csv(
+                f"CSV/test {self.testNumber}_channel_hits_{maxADC}ADC.csv", index=False
+            )
+            print(
+                f"Saved {len(all_channel_hits)} channel hits to channel_hits_{maxADC}ADC.csv"
+            )
 
         # Customizing the plot
         if count > 0:
-            ax.legend(bbox_to_anchor=(1, 1), loc='upper left', fontsize=12, title='Event #: Carrier , Asic , Channel (Seq Channel)', title_fontsize=12)
-        plt.suptitle(f"{count} Channels out of {self.N} Events with Hits Over {maxADC} ADC Counts", fontsize=22, fontweight='bold')
-        #plt.title('Event #: Carrier , Asic , Channel (Seq Channel)', fontsize=14, fontstyle='italic') # If want a subtitle
-        plt.ylabel("Amplitude (with offset)", fontsize=18, fontweight='bold')
-        plt.xlabel("Sample Number", fontsize=18, fontweight='bold')
+            ax.legend(
+                self.lines[::-1],
+                self.labels[::-1],
+                bbox_to_anchor=(1, 1),
+                loc="upper left",
+                fontsize=12,
+                title="Event #: Carrier , Asic , Channel (Seq Channel)",
+                title_fontsize=12,
+            )
+        plt.suptitle(
+            f"{count} Channels out of {self.N} Events with Hits Over {maxADC} ADC Counts",
+            fontsize=22,
+            fontweight="bold",
+        )
+        # plt.title('Event #: Carrier , Asic , Channel (Seq Channel)', fontsize=14, fontstyle='italic') # If want a subtitle
+        plt.ylabel("Amplitude (with offset)", fontsize=18, fontweight="bold")
+        plt.xlabel("Time (s)", fontsize=18, fontweight="bold")
 
         # Show grid for better visualization
         ax.grid(True, alpha=0.3)
@@ -301,12 +432,15 @@ class Waveforms :
 
         # Set reasonable axis limits
         if count > 0:
-            plt.xlim(0, 63)  # Most waveforms are ~64 samples
+            plt.xlim(0, 0.032)  # All waveforms are ~64 samples
 
         # Saving the plot to png
-        plt.savefig(f"Images/wvs-w-hits-over-{maxADC}ADC.png", dpi=150)
+        image_file = (
+            f"Images/filtered-test{self.testNumber}-wvs-w-hits-over-{maxADC}ADC.png"
+        )
+        plt.savefig(image_file, dpi=150)
 
-        print("="*50)
+        print("=" * 50)
         print(f"Analysis completed at {datetime.now()}")
         print(f"Log saved to: {log_filename}")
 
@@ -314,12 +448,15 @@ class Waveforms :
         sys.stdout = original_stdout
         log_file.close()
 
-        print(f"All output has been saved to: {log_filename}")
+        print(f"All images saved to: {image_file}")
 
-def main() :
-    wv = Waveforms()
-    pd.set_option('display.max_rows', None) # So we can see all the rows
-    pd.set_option('display.max_columns', None) # Uncomment this line if you want to see all columns
+
+def main():
+    wv = Waveforms(filename="test1_SiPM-on.root", test=11, adc=100, N=1000)
+    pd.set_option("display.max_rows", None)  # So we can see all the rows
+    pd.set_option(
+        "display.max_columns", None
+    )  # Uncomment this line if you want to see all columns
 
     # Print some basic info before plotting
     print(f"Total events in file: {len(wv.events)}")
@@ -327,5 +464,6 @@ def main() :
 
     wv.gettingWaveforms()
 
-if __name__ == "__main__" :
+
+if __name__ == "__main__":
     main()

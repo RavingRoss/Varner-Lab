@@ -1,0 +1,22 @@
+Starting waveform analysis at 2025-09-25 13:28:24.035502
+Logging output to: LOG/test7_waveform_analysis_log_20250925_132824.txt
+==================================================
+Row 0, Event 0
+TOPRawDigits.m_carrier: [1, 2] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [3, 0] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [0, 0] (type: <class 'awkward.highlevel.Array'>)
+         Skipping waveform due to asic and/or carrier configuration
+Row 1, Event 1
+TOPRawDigits.m_carrier: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, ..., 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [2, 2, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, ..., 2, 2, 3, 3, 3, 3, 3, 2, 2, 3, 3, 3] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [6, 7, 0, 1, 2, 3, 4, 5, 6, 0, 1, 1, 2, ..., 7, 7, 2, 2, 2, 3, 3, 5, 6, 0, 1, 2] (type: <class 'awkward.highlevel.Array'>)
+         Skipping waveform due to asic and/or carrier configuration
+Row 2, Event 2
+TOPRawDigits.m_carrier: [1, 3] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [2, 2] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [0, 0] (type: <class 'awkward.highlevel.Array'>)
+         Skipping waveform due to asic and/or carrier configuration
+Row 3, Event 3
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)

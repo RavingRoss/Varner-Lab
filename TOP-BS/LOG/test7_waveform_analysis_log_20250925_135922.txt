@@ -1,0 +1,8 @@
+Starting waveform analysis at 2025-09-25 13:59:22.363372
+Logging output to: LOG/test7_waveform_analysis_log_20250925_135922.txt
+==================================================
+Row 0, Event 0
+TOPRawDigits.m_carrier: [1, 2] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [3, 0] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [0, 0] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
