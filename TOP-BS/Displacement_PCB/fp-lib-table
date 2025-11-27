@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kicad-mza")(type "KiCad")(uri "/Users/jromeo/Documents/Documents-Jacob-MAC/Research/UHM/Varner/Varner-Lab/SiPMT revA/kicad-mza.pretty")(options "")(descr ""))
+)
