@@ -1,0 +1,96 @@
+Starting waveform analysis at 2026-03-02 15:39:29.041014
+Logging output to: LOG/test12_waveform_analysis_log_20260302_153929.txt
+==================================================
+TOPRawDigits.fUniqueID            []
+TOPRawDigits.fBits                []
+TOPRawDigits.m_scrodID            []
+TOPRawDigits.m_carrier            []
+TOPRawDigits.m_asic               []
+TOPRawDigits.m_channel            []
+TOPRawDigits.m_window             []
+TOPRawDigits.m_TFine              []
+TOPRawDigits.m_sampleRise         []
+TOPRawDigits.m_dSamplePeak        []
+TOPRawDigits.m_dSampleFall        []
+TOPRawDigits.m_VRise0             []
+TOPRawDigits.m_VRise1             []
+TOPRawDigits.m_VPeak              []
+TOPRawDigits.m_VFall0             []
+TOPRawDigits.m_VFall1             []
+TOPRawDigits.m_integral           []
+TOPRawDigits.m_revo9Counter       []
+TOPRawDigits.m_phase              []
+TOPRawDigits.m_lookBackWindows    []
+TOPRawDigits.m_errorFlags         []
+TOPRawDigits.m_lastWriteAddr      []
+TOPRawDigits.m_windows            []
+TOPRawDigits.m_offline            []
+TOPRawDigits.m_dataType           []
+Name: 0, dtype: awkward
+Row 0, Event 0
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawDigits.fUniqueID            []
+TOPRawDigits.fBits                []
+TOPRawDigits.m_scrodID            []
+TOPRawDigits.m_carrier            []
+TOPRawDigits.m_asic               []
+TOPRawDigits.m_channel            []
+TOPRawDigits.m_window             []
+TOPRawDigits.m_TFine              []
+TOPRawDigits.m_sampleRise         []
+TOPRawDigits.m_dSamplePeak        []
+TOPRawDigits.m_dSampleFall        []
+TOPRawDigits.m_VRise0             []
+TOPRawDigits.m_VRise1             []
+TOPRawDigits.m_VPeak              []
+TOPRawDigits.m_VFall0             []
+TOPRawDigits.m_VFall1             []
+TOPRawDigits.m_integral           []
+TOPRawDigits.m_revo9Counter       []
+TOPRawDigits.m_phase              []
+TOPRawDigits.m_lookBackWindows    []
+TOPRawDigits.m_errorFlags         []
+TOPRawDigits.m_lastWriteAddr      []
+TOPRawDigits.m_windows            []
+TOPRawDigits.m_offline            []
+TOPRawDigits.m_dataType           []
+Name: 1, dtype: awkward
+Row 1, Event 1
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawDigits.fUniqueID            []
+TOPRawDigits.fBits                []
+TOPRawDigits.m_scrodID            []
+TOPRawDigits.m_carrier            []
+TOPRawDigits.m_asic               []
+TOPRawDigits.m_channel            []
+TOPRawDigits.m_window             []
+TOPRawDigits.m_TFine              []
+TOPRawDigits.m_sampleRise         []
+TOPRawDigits.m_dSamplePeak        []
+TOPRawDigits.m_dSampleFall        []
+TOPRawDigits.m_VRise0             []
+TOPRawDigits.m_VRise1             []
+TOPRawDigits.m_VPeak              []
+TOPRawDigits.m_VFall0             []
+TOPRawDigits.m_VFall1             []
+TOPRawDigits.m_integral           []
+TOPRawDigits.m_revo9Counter       []
+TOPRawDigits.m_phase              []
+TOPRawDigits.m_lookBackWindows    []
+TOPRawDigits.m_errorFlags         []
+TOPRawDigits.m_lastWriteAddr      []
+TOPRawDigits.m_windows            []
+TOPRawDigits.m_offline            []
+TOPRawDigits.m_dataType           []
+Name: 2, dtype: awkward
+Row 2, Event 2
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration

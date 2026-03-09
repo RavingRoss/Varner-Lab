@@ -1,0 +1,192 @@
+Starting waveform analysis at 2026-03-02 15:39:05.083413
+Logging output to: LOG/test12_waveform_analysis_log_20260302_153905.txt
+==================================================
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 0, dtype: awkward
+Row 0, Event 0
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 1, dtype: awkward
+Row 1, Event 1
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 2, dtype: awkward
+Row 2, Event 2
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 3, dtype: awkward
+Row 3, Event 3
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 4, dtype: awkward
+Row 4, Event 4
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 5, dtype: awkward
+Row 5, Event 5
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 6, dtype: awkward
+Row 6, Event 6
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 7, dtype: awkward
+Row 7, Event 7
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPDigits.fUniqueID        []
+TOPDigits.fBits            []
+TOPDigits.m_moduleID       []
+TOPDigits.m_pixelID        []
+TOPDigits.m_channel        []
+TOPDigits.m_rawTime        []
+TOPDigits.m_time           []
+TOPDigits.m_timeError      []
+TOPDigits.m_pulseHeight    []
+TOPDigits.m_pulseWidth     []
+TOPDigits.m_integral       []
+TOPDigits.m_firstWindow    []
+TOPDigits.m_quality        []
+TOPDigits.m_status         []
+TOPDigits.m_chargeShare    []
+Name: 8, dtype: awkward
+Row 8, Event 8
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration

@@ -1,0 +1,608 @@
+Starting waveform analysis at 2026-03-02 15:21:29.084327
+Logging output to: LOG/test12_waveform_analysis_log_20260302_152129.txt
+==================================================
+Row 0, Event 0
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 1, Event 1
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 2, Event 2
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 3, Event 3
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 4, Event 4
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 5, Event 5
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 6, Event 6
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 7, Event 7
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 8, Event 8
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 9, Event 9
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 10, Event 10
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 11, Event 11
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 12, Event 12
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 13, Event 13
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 14, Event 14
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 15, Event 15
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 16, Event 16
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 17, Event 17
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 18, Event 18
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 19, Event 19
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 20, Event 20
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 21, Event 21
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 22, Event 22
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 23, Event 23
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 24, Event 24
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 25, Event 25
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 26, Event 26
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 27, Event 27
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 28, Event 28
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 29, Event 29
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 30, Event 30
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 31, Event 31
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 32, Event 32
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 33, Event 33
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 34, Event 34
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 35, Event 35
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 36, Event 36
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 37, Event 37
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 38, Event 38
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 39, Event 39
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 40, Event 40
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 41, Event 41
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 42, Event 42
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 43, Event 43
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 44, Event 44
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 45, Event 45
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 46, Event 46
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 47, Event 47
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 48, Event 48
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 49, Event 49
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 50, Event 50
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 51, Event 51
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 52, Event 52
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 53, Event 53
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 54, Event 54
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 55, Event 55
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 56, Event 56
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 57, Event 57
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 58, Event 58
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 59, Event 59
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 60, Event 60
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 61, Event 61
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 62, Event 62
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 63, Event 63
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 64, Event 64
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 65, Event 65
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 66, Event 66
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 67, Event 67
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 68, Event 68
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 69, Event 69
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 70, Event 70
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 71, Event 71
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 72, Event 72
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 73, Event 73
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 74, Event 74
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 75, Event 75
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 76, Event 76
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 77, Event 77
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 78, Event 78
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 79, Event 79
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 80, Event 80
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 81, Event 81
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 82, Event 82
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 83, Event 83
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 84, Event 84
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 85, Event 85
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 86, Event 86
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 87, Event 87
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 88, Event 88
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 89, Event 89
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 90, Event 90
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 91, Event 91
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 92, Event 92
+TOPRawDigits.m_carrier: [3] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [2] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [7] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+Waveform raw type: <class 'awkward.highlevel.Array'>
+Waveform raw shape: No shape attr
+Waveform raw length: 1
+First element of raw waveform: shape/length = 32
+    MOVING ON, Could not access first/second element of raw waveform
+Row 93, Event 93
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 94, Event 94
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 95, Event 95
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 96, Event 96
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 97, Event 97
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 98, Event 98
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Row 99, Event 99
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration
+Total waveforms plotted: 0

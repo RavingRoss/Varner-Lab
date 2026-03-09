@@ -1,0 +1,399 @@
+Starting waveform analysis at 2026-03-02 15:37:27.634101
+Logging output to: LOG/test12_waveform_analysis_log_20260302_153727.txt
+==================================================
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 0, dtype: object
+Row 0, Event 0
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 1, dtype: object
+Row 1, Event 1
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 2, dtype: object
+Row 2, Event 2
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 3, dtype: object
+Row 3, Event 3
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 4, dtype: object
+Row 4, Event 4
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 5, dtype: object
+Row 5, Event 5
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 6, dtype: object
+Row 6, Event 6
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 7, dtype: object
+Row 7, Event 7
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 8, dtype: object
+Row 8, Event 8
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 9, dtype: object
+Row 9, Event 9
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 10, dtype: object
+Row 10, Event 10
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 11, dtype: object
+Row 11, Event 11
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 12, dtype: object
+Row 12, Event 12
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 13, dtype: object
+Row 13, Event 13
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 14, dtype: object
+Row 14, Event 14
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 15, dtype: object
+Row 15, Event 15
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 16, dtype: object
+Row 16, Event 16
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 17, dtype: object
+Row 17, Event 17
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 18, dtype: object
+Row 18, Event 18
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 19, dtype: object
+Row 19, Event 19
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 20, dtype: object
+Row 20, Event 20
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+fUniqueID                      0
+fBits                   50339840
+m_elements                     0
+m_elements.fUniqueID          []
+m_elements.fBits              []
+m_elements.m_from             []
+m_elements.m_to               []
+m_elements.m_weights          []
+m_fromName                      
+m_fromDurability              -1
+m_toName                        
+m_toDurability                -1
+Name: 21, dtype: object
+Row 21, Event 21
+TOPRawDigits.m_carrier: [] (type: <class 'list'>)
+TOPRawDigits.m_asic: [] (type: <class 'list'>)
+TOPRawDigits.m_channel: [] (type: <class 'list'>)
+          Skipping waveform due to missing asic and/or carrier configuration

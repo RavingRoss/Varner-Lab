@@ -1,0 +1,9 @@
+Starting waveform analysis at 2026-03-02 15:17:13.635058
+Logging output to: LOG/test12_waveform_analysis_log_20260302_151713.txt
+==================================================
+Row 0, Event 0
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+     Keeping only chosen asics and carriers and filtering unused.
+          Skipping waveform due to missing asic and/or carrier configuration

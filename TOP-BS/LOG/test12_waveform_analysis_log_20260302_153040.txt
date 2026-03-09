@@ -1,0 +1,654 @@
+Starting waveform analysis at 2026-03-02 15:30:40.989524
+Logging output to: LOG/test12_waveform_analysis_log_20260302_153040.txt
+==================================================
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 0, dtype: awkward
+Row 0, Event 0
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 1, dtype: awkward
+Row 1, Event 1
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 2, dtype: awkward
+Row 2, Event 2
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 3, dtype: awkward
+Row 3, Event 3
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 4, dtype: awkward
+Row 4, Event 4
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 5, dtype: awkward
+Row 5, Event 5
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 6, dtype: awkward
+Row 6, Event 6
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 7, dtype: awkward
+Row 7, Event 7
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 8, dtype: awkward
+Row 8, Event 8
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 9, dtype: awkward
+Row 9, Event 9
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 10, dtype: awkward
+Row 10, Event 10
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 11, dtype: awkward
+Row 11, Event 11
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 12, dtype: awkward
+Row 12, Event 12
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 13, dtype: awkward
+Row 13, Event 13
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 14, dtype: awkward
+Row 14, Event 14
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 15, dtype: awkward
+Row 15, Event 15
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 16, dtype: awkward
+Row 16, Event 16
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 17, dtype: awkward
+Row 17, Event 17
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 18, dtype: awkward
+Row 18, Event 18
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 19, dtype: awkward
+Row 19, Event 19
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 20, dtype: awkward
+Row 20, Event 20
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 21, dtype: awkward
+Row 21, Event 21
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 22, dtype: awkward
+Row 22, Event 22
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 23, dtype: awkward
+Row 23, Event 23
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 24, dtype: awkward
+Row 24, Event 24
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 25, dtype: awkward
+Row 25, Event 25
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 26, dtype: awkward
+Row 26, Event 26
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 27, dtype: awkward
+Row 27, Event 27
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 28, dtype: awkward
+Row 28, Event 28
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 29, dtype: awkward
+Row 29, Event 29
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration
+TOPRawWaveforms.fUniqueID               []
+TOPRawWaveforms.fBits                   []
+TOPRawWaveforms.m_moduleID              []
+TOPRawWaveforms.m_pixelID               []
+TOPRawWaveforms.m_channel               []
+TOPRawWaveforms.m_scrodID               []
+TOPRawWaveforms.m_window                []
+TOPRawWaveforms.m_startSample           []
+TOPRawWaveforms.m_data                  []
+TOPRawWaveforms.m_pedestalSubtracted    []
+TOPRawWaveforms.m_physicalWindow        []
+TOPRawWaveforms.m_lastWriteAddr         []
+TOPRawWaveforms.m_windows               []
+TOPRawWaveforms.m_revo9Counter          []
+TOPRawWaveforms.m_offsetWindows         []
+Name: 30, dtype: awkward
+Row 30, Event 30
+TOPRawDigits.m_carrier: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_asic: [] (type: <class 'awkward.highlevel.Array'>)
+TOPRawDigits.m_channel: [] (type: <class 'awkward.highlevel.Array'>)
+          Skipping waveform due to missing asic and/or carrier configuration

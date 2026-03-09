@@ -1,13 +1,14 @@
+import hashlib
+import os
+import sys
+from datetime import datetime
 from random import sample
-import uproot
+
 import matplotlib.pyplot as plt
-import seaborn as sns
 import numpy as np
 import pandas as pd
-import hashlib
-import sys
-import os
-from datetime import datetime
+import seaborn as sns
+import uproot
 
 
 class Waveforms:
@@ -30,18 +31,26 @@ class Waveforms:
         self.events = self.file["tree"][0].arrays(
             library="pd"
         )  # Get the data from the TTree including events
+        print(self.file["tree"][5].arrays(library="pd").columns)
         print(self.events.columns)
-        self.TOPwv = self.file["tree"][8].arrays(
+        self.TOPwv = self.file["tree"][5].arrays(
             library="pd"
         )  # Get the data from the TTree including waveforms
-        print(self.TOPwv.columns)
-        self.TOPrd = self.file[
-            "tree"
-        ][
-            5
-        ].arrays(
-            library="pd"
-        )  # Get the data from the TTree including information on asic, carrier, and channel
+        # self.TOPwv = self.file["tree"][
+        #     8
+        # ].arrays(  # Choose either [8] or [5], sometimes either one.
+        #     library="pd"
+        # )  # Get the data from the TTree including waveforms
+        # print(self.TOPwv.columns)
+        # self.TOPrd = self.file[
+        #     "tree"
+        # ][
+        #     5
+        # ].arrays(
+        #     library="pd"
+        # )  # Get the data from the TTree including information on asic, carrier, and channel
+        self.TOPrd = self.file["tree"][3].arrays(  # Choose either [5] or [3], sometimes either one
+            library="pd")  # Get the data from the TTree including information on asic, carrier, and channel
         print(self.TOPrd.columns)
         self.lines = []  # Lines array for legend customization
         self.labels = []  # Labels array for legend customization
@@ -115,6 +124,7 @@ class Waveforms:
             event_data = self.events.iloc[i]
             waveform_data = self.TOPwv.iloc[i]
             hardware_data = self.TOPrd.iloc[i]
+            print(hardware_data)
 
             # Printing the row and event
             print(f"Row {i}, Event {ev}")
@@ -141,9 +151,9 @@ class Waveforms:
             # Get chosen asics and carriers <---- Comment out if using all asics and carriers
             # Filtering asics and carriers to return only valid ones
             # COMMENT IF WANT TO USE ALL ASICS AND CARRIERS
-            asics = [a for a in asics if a in (2, 3)]
-            carriers = [c for c in carriers if c in (2, 3)]
-            print("     Keeping only chosen asics and carriers and filtering unused.")
+            # asics = [a for a in asics if a in (2, 3)]
+            # carriers = [c for c in carriers if c in (2, 3)]
+            # print("     Keeping only chosen asics and carriers and filtering unused.")
 
             if asics and carriers is not None:
                 if len(asics) == 0 or len(carriers) == 0:
@@ -257,12 +267,8 @@ class Waveforms:
                 y = waveform
                 print(f"    Final waveform: {len(y)} samples")
 
-                maxADC = (
-                    self.ADC_counts  # Change if want to see more or less waveforms, arbituary value
-                )
-
                 if (
-                    len(y) == 0 or np.max(y) < maxADC
+                    len(y) == 0 or np.max(y) < self.ADC_counts
                 ):  # Cut channels without peaks over set ADC counts
                     print(
                         f"    Skipping channel {carrier_val}-{asic_val}-{channel_val} due to low peak (max={np.max(y) if len(y) > 0 else 0:.1f})"
@@ -270,9 +276,9 @@ class Waveforms:
                     continue
 
                 # One event was massive compared to the others, uncomment if want to ignore it
-                if np.max(y) > 500:
+                if np.max(y) > 1000:
                     print(
-                        f"    Skipping channel {carrier_val}-{asic_val}-{channel_val} due to eventNumber == 45"
+                        f"    Skipping channel {carrier_val}-{asic_val}-{channel_val} due to noise"
                     )
                     continue
 
@@ -400,10 +406,11 @@ class Waveforms:
         if all_channel_hits:
             df_channel_hits = pd.DataFrame(all_channel_hits)
             df_channel_hits.to_csv(
-                f"CSV/test {self.testNumber}_channel_hits_{maxADC}ADC.csv", index=False
+                f"CSV/test {self.testNumber}_channel_hits_{self.ADC_counts}ADC.csv",
+                index=False,
             )
             print(
-                f"Saved {len(all_channel_hits)} channel hits to channel_hits_{maxADC}ADC.csv"
+                f"Saved {len(all_channel_hits)} channel hits to channel_hits_{self.ADC_counts}ADC.csv"
             )
 
         # Customizing the plot
@@ -418,7 +425,7 @@ class Waveforms:
                 title_fontsize=12,
             )
         plt.suptitle(
-            f"{count} Channels out of {self.N} Events with Hits Over {maxADC} ADC Counts",
+            f"{count} Channels out of {self.N} Events with Hits Over {self.ADC_counts} ADC Counts",
             fontsize=22,
             fontweight="bold",
         )
@@ -435,9 +442,7 @@ class Waveforms:
             plt.xlim(0, 0.032)  # All waveforms are ~64 samples
 
         # Saving the plot to png
-        image_file = (
-            f"Images/filtered-test{self.testNumber}-wvs-w-hits-over-{maxADC}ADC.png"
-        )
+        image_file = f"Images/filtered-test{self.testNumber}-wvs-w-hits-over-{self.ADC_counts}ADC.png"
         plt.savefig(image_file, dpi=150)
 
         print("=" * 50)
@@ -451,8 +456,8 @@ class Waveforms:
         print(f"All images saved to: {image_file}")
 
 
-def main():
-    wv = Waveforms(filename="test1_SiPM-on.root", test=11, adc=100, N=1000)
+def main(name="test6_unpack.root"):
+    wv = Waveforms(filename=name, test=12, adc=0, N=50000)
     pd.set_option("display.max_rows", None)  # So we can see all the rows
     pd.set_option(
         "display.max_columns", None
@@ -466,4 +471,36 @@ def main():
 
 
 if __name__ == "__main__":
+    # name = input("What file will you like to plot from? ")
     main()
+
+
+""" Always check before running!!!
+
+What the waveform data columns should look like (Either [8] or [5]):
+
+Index(['TOPRawWaveforms.fUniqueID', 'TOPRawWaveforms.fBits',
+       'TOPRawWaveforms.m_moduleID', 'TOPRawWaveforms.m_pixelID',
+       'TOPRawWaveforms.m_channel', 'TOPRawWaveforms.m_scrodID',
+       'TOPRawWaveforms.m_window', 'TOPRawWaveforms.m_startSample',
+       'TOPRawWaveforms.m_data', 'TOPRawWaveforms.m_pedestalSubtracted',
+       'TOPRawWaveforms.m_physicalWindow', 'TOPRawWaveforms.m_lastWriteAddr',
+       'TOPRawWaveforms.m_windows', 'TOPRawWaveforms.m_revo9Counter',
+       'TOPRawWaveforms.m_offsetWindows'],
+What the columns for the asic, channel, and carrier columns should look like (either [5] or [3]):
+
+Index(['TOPRawDigits.fUniqueID', 'TOPRawDigits.fBits',
+       'TOPRawDigits.m_scrodID', 'TOPRawDigits.m_carrier',
+       'TOPRawDigits.m_asic', 'TOPRawDigits.m_channel',
+       'TOPRawDigits.m_window', 'TOPRawDigits.m_TFine',
+       'TOPRawDigits.m_sampleRise', 'TOPRawDigits.m_dSamplePeak',
+       'TOPRawDigits.m_dSampleFall', 'TOPRawDigits.m_VRise0',
+       'TOPRawDigits.m_VRise1', 'TOPRawDigits.m_VPeak',
+       'TOPRawDigits.m_VFall0', 'TOPRawDigits.m_VFall1',
+       'TOPRawDigits.m_integral', 'TOPRawDigits.m_revo9Counter',
+       'TOPRawDigits.m_phase', 'TOPRawDigits.m_lookBackWindows',
+       'TOPRawDigits.m_errorFlags', 'TOPRawDigits.m_lastWriteAddr',
+       'TOPRawDigits.m_windows', 'TOPRawDigits.m_offline',
+       'TOPRawDigits.m_dataType'],
+      dtype='object')
+"""
